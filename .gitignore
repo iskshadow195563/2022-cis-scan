@@ -1,0 +1,39 @@
+# Python bytecode and local environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+.venv-*/
+.venv_ws2025/
+
+# Test, coverage, and build output
+.pytest_cache/
+.coverage
+htmlcov/
+build/
+dist/
+
+# Local application state
+config.json
+startup.log
+logs/
+user_scripts/
+profiles/*.json
+data/cis_mapping.custom.json
+
+# Reports, policy exports, and backups
+results/*
+!results/.gitkeep
+!results/sample_report.json
+*.log
+*.reg
+*.inf
+
+# Benchmark source documents retained only in the optional LFS archive
+/CIS_Microsoft_Windows_Server_2022_Benchmark_v4.0.0.pdf
+/CIS_Microsoft_Windows_Server_2022_Benchmark_v4.0.0.txt
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
