@@ -13,20 +13,19 @@
 ## Overview
 
 Windows Security Auditor is a PyQt5 application that combines a graphical audit
-workflow with PowerShell-based configuration checks. The current v5.4 archive
-contains 436 CIS items, a matching set of 436 check scripts, report comparison
-and export tools, reusable scan profiles, and English and Traditional Chinese
-interfaces.
+workflow with PowerShell-based configuration checks. The v5.4 source contains
+436 CIS items, a matching set of 436 check scripts, report comparison and export
+tools, reusable scan profiles, and English and Traditional Chinese interfaces.
 
 The project is primarily built around the **CIS Microsoft Windows Server 2022
-Benchmark v4.0.0** included in the archive. It can run checks locally, against
-the current domain-policy context, or on a remote Windows host through
+Benchmark v4.0.0** included in the repository. It can run checks locally,
+against the current domain-policy context, or on a remote Windows host through
 PowerShell Remoting.
 
-> [!IMPORTANT] The repository currently distributes the application as
-> `project-001(v5.4).7z` through Git LFS. The Python source tree is inside that
-> archive, not at the repository root. Follow the extraction steps below before
-> running the application.
+> [!IMPORTANT] The application source is available directly in the repository
+> root. `project-001(v5.4).7z` is retained through Git LFS only as an optional
+> snapshot of the original packaged project; extracting it is not required for
+> normal development or use.
 
 <!-- Separate the GitHub alert blocks. -->
 
@@ -68,7 +67,7 @@ PowerShell Remoting.
 The code includes detection paths for Windows Server 2012, 2012 R2, 2016, 2019,
 2022, and 2025. It also exposes a restricted audit interface on Windows 10 and
 Windows 11. However, only the Windows Server 2022 benchmark source is included
-in this archive, so other operating systems should not be treated as fully
+in this repository, so other operating systems should not be treated as fully
 validated benchmark targets.
 
 ## How it works
@@ -98,40 +97,21 @@ report, and runs post-scan validation.
 
 Install the following on the Windows machine that will run the application:
 
-- [Git LFS](https://git-lfs.com/)
-- [7-Zip](https://www.7-zip.org/) or another tool that can extract `.7z`
-  archives
 - Python 3.12 or 3.13
 - Git
 
-### 2. Clone and download the LFS archive
+Git LFS and 7-Zip are optional and only needed for the archived snapshot.
+
+### 2. Clone the repository
 
 ```powershell
-git lfs install
 git clone https://github.com/iskshadow195563/2022-cis-scan.git
 Set-Location .\2022-cis-scan
-git lfs pull
 ```
 
-If the archive is only a small text file containing
-`version https://git-lfs.github.com/spec/v1`, the LFS object has not been
-downloaded. Run `git lfs pull` again after confirming Git LFS is installed.
+### 3. Create a clean virtual environment
 
-### 3. Extract the application
-
-With the `7z` command available:
-
-```powershell
-7z x '.\project-001(v5.4).7z'
-Set-Location '.\project-001(v5.4)'
-```
-
-You can also extract the archive from the 7-Zip graphical interface.
-
-### 4. Create a clean virtual environment
-
-The archive contains development virtual-environment folders from the original
-machine. They are not portable. Create a new environment instead:
+Create a project-local environment instead of installing dependencies globally:
 
 ```powershell
 py -3.13 -m venv .venv-local
@@ -150,6 +130,21 @@ directly:
 
 The application dependencies are PyQt5, python-docx, matplotlib, psutil,
 openpyxl, and requests.
+
+### Optional: download the original archive
+
+The source tree above is already ready to use. If you specifically need the
+original v5.4 snapshot, install [Git LFS](https://git-lfs.com/) and
+[7-Zip](https://www.7-zip.org/), then run:
+
+```powershell
+git lfs install
+git lfs pull
+7z x '.\project-001(v5.4).7z' -o'.\archive-v5.4'
+```
+
+The snapshot contains machine-specific virtual environments, caches, logs, and
+old reports. Do not copy those generated files back into the source tree.
 
 ## Running the application
 
@@ -175,8 +170,7 @@ Prompt with **Run as administrator** before starting the application.
 
 1. Select **Check Environment** and review the detected OS, Python version,
    architecture, and administrator status.
-2. Choose an output directory. The default is the extracted project's `results`
-   folder.
+2. Choose an output directory. The default is the repository's `results` folder.
 3. Search for individual controls or select all L1, all L2, both levels, or all
    visible controls.
 4. Choose **Local**, **Domain**, or **Remote** scan mode.
@@ -312,10 +306,10 @@ security-relevant details. Store and share them accordingly.
 
 ## Project layout
 
-The following structure appears after extracting `project-001(v5.4).7z`:
+The repository contains the following source structure:
 
 ```text
-project-001(v5.4)/
+2022-cis-scan/
 ├── main.py                         # Application entry point
 ├── check_os.py                     # OS compatibility pre-check
 ├── start.bat                       # Windows launcher
@@ -360,9 +354,9 @@ Generate a coverage report:
 python -m pytest --cov=core --cov=gui --cov-report=term-missing
 ```
 
-The v5.4 archive currently contains 31 test modules and 188 test functions. The
-bundled coverage artifact reports 73% statement coverage; regenerate it after
-making changes because the archived value may be stale.
+The v5.4 source currently contains 31 test modules and 188 test functions. The
+included coverage artifact reports 73% statement coverage; regenerate it after
+making changes because the recorded value may be stale.
 
 For OS-detection tests, the code recognizes values such as `server:2022`,
 `server:2019`, `client:win11`, and `client:win10` through the
@@ -371,10 +365,10 @@ production compatibility checks.
 
 ## Troubleshooting
 
-### The archive is only about 130 bytes
+### The optional archive is only about 130 bytes
 
-You downloaded the Git LFS pointer instead of the archive. Install Git LFS and
-run:
+The source code is still available and usable. If you also want the optional
+archive, install Git LFS and run:
 
 ```powershell
 git lfs install
@@ -384,14 +378,12 @@ git lfs pull
 ### Python dependencies fail to install
 
 Use Python 3.12 or 3.13, create a fresh virtual environment, upgrade pip, and
-retry `python -m pip install -r requirements.txt`. Do not reuse the archived
-`.venv` directories.
+retry `python -m pip install -r requirements.txt`.
 
 ### A scan reports missing scripts
 
-Confirm that the archive was fully extracted and that `scripts\checks\` contains
-the check scripts. Start the application from the extracted project root so
-relative paths resolve correctly.
+Confirm that `scripts\checks\` contains the check scripts. Start the application
+from the repository root so relative paths resolve correctly.
 
 ### Remote checks fail
 
@@ -433,10 +425,10 @@ certification.
 ## 繁體中文簡介
 
 Windows Security
-Auditor 是一個以 PyQt5 和 PowerShell 製作的 Windows 安全審查工具。v5.4 壓縮包內含 436 個 CIS 檢查項目及對應腳本，主要依據隨附的
+Auditor 是一個以 PyQt5 和 PowerShell 製作的 Windows 安全審查工具。v5.4 原始碼已直接放在儲存庫根目錄，內含 436 個 CIS 檢查項目及對應腳本，主要依據隨附的
 **CIS Microsoft Windows Server 2022 Benchmark
 v4.0.0**。程式支援本機、目前網域原則環境及 WinRM 遠端掃描，並可輸出 JSON、DOCX、XLSX、CSV 及 TXT 報告。
 
-使用前請先安裝 Git LFS 並解壓 `project-001(v5.4).7z`。建議使用 Python
-3.12 或 3.13 建立全新的
-`.venv-local`，不要沿用壓縮包內的虛擬環境。完整掃描建議以系統管理員身份執行；「套用 CIS 預設值」、還原基線、復原、WinRM 及防火牆設定均會修改系統，務必先建立快照及儲存基線，並在非生產環境測試。
+使用前只需複製儲存庫，並以 Python 3.12 或 3.13 建立全新的
+`.venv-local`。`project-001(v5.4).7z`
+只保留作原始封裝快照，正常使用不必解壓。完整掃描建議以系統管理員身份執行；「套用 CIS 預設值」、還原基線、復原、WinRM 及防火牆設定均會修改系統，務必先建立快照及儲存基線，並在非生產環境測試。

@@ -1,0 +1,99 @@
+QMainWindow {
+    background-color: #f5f6fa;
+}
+
+QPushButton {
+    background-color: #3498db;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+}
+
+QPushButton:hover {
+    background-color: #2980b9;
+}
+
+QPushButton:pressed {
+    background-color: #1f618d;
+}
+
+QPushButton:disabled {
+    background-color: #bdc3c7;
+}
+
+QLabel {
+    color: #2c3e50;
+    font-size: 14px;
+}
+
+QScrollArea {
+    border: 1px solid #dcdde1;
+    border-radius: 5px;
+    background-color: white;
+}
+
+QCheckBox {
+    padding: 5px;
+    spacing: 10px;
+}
+
+QProgressBar {
+    border: 1px solid #dcdde1;
+    border-radius: 5px;
+    text-align: center;
+    height: 20px;
+}
+
+QProgressBar::chunk {
+    background-color: #2ecc71;
+    width: 20px;
+}
+
+QTableWidget {
+    background-color: white;
+    border: 1px solid #dcdde1;
+    gridline-color: #f1f2f6;
+}
+
+QTableWidget::item:hover {
+    background-color: #dfe6e9;
+}
+
+QHeaderView::section {
+    background-color: #f1f2f6;
+    padding: 5px;
+    border: 1px solid #dcdde1;
+    font-weight: bold;
+}
+
+/* Help button styling */
+QPushButton#helpButton {
+    background-color: #6c5ce7;
+    color: white;
+    font-weight: bold;
+    border-radius: 14px;
+    padding: 4px 8px;
+}
+QPushButton#helpButton:hover {
+    background-color: #5a4bd1;
+}
+QPushButton#helpButton:pressed {
+    background-color: #4b3fc0;
+}
+
+QPushButton#bgButton {
+    background-color: #00b894;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 6px 12px;
+}
+QPushButton#bgButton:hover {
+    background-color: #00a383;
+}
+QPushButton#bgButton:pressed {
+    background-color: #008f72;
+}

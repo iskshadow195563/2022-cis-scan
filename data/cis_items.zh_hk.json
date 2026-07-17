@@ -1,0 +1,2618 @@
+{
+  "1.1.1": {
+    "code": "1.1.1",
+    "description": "強制密碼歷史 ≥ 24 (自動化)",
+    "level": "L1",
+    "full_text": "1.1.1 (L1) 強制密碼歷史 ≥ 24 (自動化)"
+  },
+  "1.1.2": {
+    "code": "1.1.2",
+    "description": "密碼最長使用期限 ≤ 365 天, 非 0 (自動化)",
+    "level": "L1",
+    "full_text": "1.1.2 (L1) 密碼最長使用期限 ≤ 365 天, 非 0 (自動化)"
+  },
+  "1.1.3": {
+    "code": "1.1.3",
+    "description": "密碼最短使用期限 ≥ 1 天 (自動化)",
+    "level": "L1",
+    "full_text": "1.1.3 (L1) 密碼最短使用期限 ≥ 1 天 (自動化)"
+  },
+  "1.1.4": {
+    "code": "1.1.4",
+    "description": "密碼最小長度 ≥ 14 個字符 (自動化)",
+    "level": "L1",
+    "full_text": "1.1.4 (L1) 密碼最小長度 ≥ 14 個字符 (自動化)"
+  },
+  "1.1.5": {
+    "code": "1.1.5",
+    "description": "密碼必須符合複雜性要求 = 已啟用 (自動化)",
+    "level": "L1",
+    "full_text": "1.1.5 (L1) 密碼必須符合複雜性要求 = 已啟用 (自動化)"
+  },
+  "1.1.6": {
+    "code": "1.1.6",
+    "description": "放寬密碼最小長度限制 = 已啟用 (自動化)",
+    "level": "L1",
+    "full_text": "1.1.6 (L1) 放寬密碼最小長度限制 = 已啟用 (自動化)"
+  },
+  "1.1.7": {
+    "code": "1.1.7",
+    "description": "使用可逆加密存儲密碼 = 已禁用 (自動化)",
+    "level": "L1",
+    "full_text": "1.1.7 (L1) 使用可逆加密存儲密碼 = 已禁用 (自動化)"
+  },
+  "1.2.1": {
+    "code": "1.2.1",
+    "description": "帳戶鎖定持續時間 ≥ 15 分鐘 (自動化)",
+    "level": "L1",
+    "full_text": "1.2.1 (L1) 帳戶鎖定持續時間 ≥ 15 分鐘 (自動化)"
+  },
+  "1.2.2": {
+    "code": "1.2.2",
+    "description": "帳戶鎖定閾值 ≤ 5 次無效嘗試, 非 0 (自動化)",
+    "level": "L1",
+    "full_text": "1.2.2 (L1) 帳戶鎖定閾值 ≤ 5 次無效嘗試, 非 0 (自動化)"
+  },
+  "1.2.3": {
+    "code": "1.2.3",
+    "description": "允許管理員帳戶鎖定 = 已啟用 (僅限 MS, 手動)",
+    "level": "L1",
+    "full_text": "1.2.3 (L1) 允許管理員帳戶鎖定 = 已啟用 (僅限 MS, 手動)"
+  },
+  "1.2.4": {
+    "code": "1.2.4",
+    "description": "重置帳戶鎖定計數器 ≥ 15 分鐘 (自動化)",
+    "level": "L1",
+    "full_text": "1.2.4 (L1) 重置帳戶鎖定計數器 ≥ 15 分鐘 (自動化)"
+  },
+  "2.2.1": {
+    "code": "2.2.1",
+    "description": "作為受信任的調用者訪問憑據管理器 = 無 (自動化)",
+    "level": "L1",
+    "full_text": "2.2.1 (L1) 作為受信任的調用者訪問憑據管理器 = 無 (自動化)"
+  },
+  "2.2.2": {
+    "code": "2.2.2",
+    "description": "從網絡訪問計算機 = 管理員, 經過身份驗證的用戶, 域控制器 (僅限 DC, 自動化)",
+    "level": "L1",
+    "full_text": "2.2.2 (L1) 從網絡訪問計算機 = 管理員, 經過身份驗證的用戶, 域控制器 (僅限 DC, 自動化)"
+  },
+  "2.2.3": {
+    "code": "2.2.3",
+    "description": "從網絡訪問計算機 = 管理員, 經過身份驗證的用戶 (僅限 MS, 自動化)",
+    "level": "L1",
+    "full_text": "2.2.3 (L1) 從網絡訪問計算機 = 管理員, 經過身份驗證的用戶 (僅限 MS, 自動化)"
+  },
+  "2.2.4": {
+    "code": "2.2.4",
+    "description": "作為操作系統的一部分 = 無 (自動化)",
+    "level": "L1",
+    "full_text": "2.2.4 (L1) 作為操作系統的一部分 = 無 (自動化)"
+  },
+  "2.2.5": {
+    "code": "2.2.5",
+    "description": "將工作站添加到域 = 管理員 (僅限 DC, 自動化)",
+    "level": "L1",
+    "full_text": "2.2.5 (L1) 將工作站添加到域 = 管理員 (僅限 DC, 自動化)"
+  },
+  "2.2.6": {
+    "code": "2.2.6",
+    "description": "調整內存配額 = 管理員, 本地服務, 網絡服務 (自動化)",
+    "level": "L1",
+    "full_text": "2.2.6 (L1) 調整內存配額 = 管理員, 本地服務, 網絡服務 (自動化)"
+  },
+  "2.2.7": {
+    "code": "2.2.7",
+    "description": "允許本地登錄 = 管理員, 域控制器 (僅限 DC, 自動化)",
+    "level": "L1",
+    "full_text": "2.2.7 (L1) 允許本地登錄 = 管理員, 域控制器 (僅限 DC, 自動化)"
+  },
+  "2.2.8": {
+    "code": "2.2.8",
+    "description": "允許本地登錄 = 管理員 (僅限 MS, 自動化)",
+    "level": "L1",
+    "full_text": "2.2.8 (L1) 允許本地登錄 = 管理員 (僅限 MS, 自動化)"
+  },
+  "2.2.9": {
+    "code": "2.2.9",
+    "description": "允許通過 RDP 登錄 = 管理員 (僅限 DC, 自動化)",
+    "level": "L1",
+    "full_text": "2.2.9 (L1) 允許通過 RDP 登錄 = 管理員 (僅限 DC, 自動化)"
+  },
+  "2.2.10": {
+    "code": "2.2.10",
+    "description": "允許通過 RDP 登錄 = 管理員, RDP 用戶 (僅限 MS, 自動化)",
+    "level": "L1",
+    "full_text": "2.2.10 (L1) 允許通過 RDP 登錄 = 管理員, RDP 用戶 (僅限 MS, 自動化)"
+  },
+  "2.2.11": {
+    "code": "2.2.11",
+    "description": "備份文件/目錄 = 管理員 (自動化)",
+    "level": "L1",
+    "full_text": "2.2.11 (L1) 備份文件/目錄 = 管理員 (自動化)"
+  },
+  "2.2.12": {
+    "code": "2.2.12",
+    "description": "更改系統時間 = 管理員, 本地服務 (自動化)",
+    "level": "L1",
+    "full_text": "2.2.12 (L1) 更改系統時間 = 管理員, 本地服務 (自動化)"
+  },
+  "2.2.13": {
+    "code": "2.2.13",
+    "description": "更改時區 = 管理員, 本地服務 (自動化)",
+    "level": "L1",
+    "full_text": "2.2.13 (L1) 更改時區 = 管理員, 本地服務 (自動化)"
+  },
+  "2.2.14": {
+    "code": "2.2.14",
+    "description": "創建頁面文件 = 管理員 (自動化)",
+    "level": "L1",
+    "full_text": "2.2.14 (L1) 創建頁面文件 = 管理員 (自動化)"
+  },
+  "2.2.15": {
+    "code": "2.2.15",
+    "description": "創建令牌對象 = 無 (自動化)",
+    "level": "L1",
+    "full_text": "2.2.15 (L1) 創建令牌對象 = 無 (自動化)"
+  },
+  "2.2.16": {
+    "code": "2.2.16",
+    "description": "創建全局對象 = 管理員, 本地/網絡服務, 服務 (自動化)",
+    "level": "L1",
+    "full_text": "2.2.16 (L1) 創建全局對象 = 管理員, 本地/網絡服務, 服務 (自動化)"
+  },
+  "2.2.17": {
+    "code": "2.2.17",
+    "description": "創建永久共享對象 = 無 (自動化)",
+    "level": "L1",
+    "full_text": "2.2.17 (L1) 創建永久共享對象 = 無 (自動化)"
+  },
+  "2.2.18": {
+    "code": "2.2.18",
+    "description": "創建符號鏈接 = 管理員 (僅限 DC, 自動化)",
+    "level": "L1",
+    "full_text": "2.2.18 (L1) 創建符號鏈接 = 管理員 (僅限 DC, 自動化)"
+  },
+  "2.2.19": {
+    "code": "2.2.19",
+    "description": "創建符號鏈接 = 管理員, NT VM\\虛擬機 (僅限 MS, 自動化)",
+    "level": "L1",
+    "full_text": "2.2.19 (L1) 創建符號鏈接 = 管理員, NT VM\\虛擬機 (僅限 MS, 自動化)"
+  },
+  "2.2.20": {
+    "code": "2.2.20",
+    "description": "調試程序 = 管理員 (自動化)",
+    "level": "L1",
+    "full_text": "2.2.20 (L1) 調試程序 = 管理員 (自動化)"
+  },
+  "2.2.21": {
+    "code": "2.2.21",
+    "description": "拒絕網絡訪問 = 訪客 (僅限 DC, 自動化)",
+    "level": "L1",
+    "full_text": "2.2.21 (L1) 拒絕網絡訪問 = 訪客 (僅限 DC, 自動化)"
+  },
+  "2.2.22": {
+    "code": "2.2.22",
+    "description": "拒絕網絡訪問 = 訪客, 本地管理員帳戶 (僅限 MS, 自動化)",
+    "level": "L1",
+    "full_text": "2.2.22 (L1) 拒絕網絡訪問 = 訪客, 本地管理員帳戶 (僅限 MS, 自動化)"
+  },
+  "2.2.23": {
+    "code": "2.2.23",
+    "description": "拒絕作為批處理作業登錄 = 訪客 (自動化)",
+    "level": "L1",
+    "full_text": "2.2.23 (L1) 拒絕作為批處理作業登錄 = 訪客 (自動化)"
+  },
+  "2.2.24": {
+    "code": "2.2.24",
+    "description": "拒絕作為服務登錄 = 訪客 (自動化)",
+    "level": "L1",
+    "full_text": "2.2.24 (L1) 拒絕作為服務登錄 = 訪客 (自動化)"
+  },
+  "2.2.25": {
+    "code": "2.2.25",
+    "description": "拒絕本地登錄 = 訪客 (自動化)",
+    "level": "L1",
+    "full_text": "2.2.25 (L1) 拒絕本地登錄 = 訪客 (自動化)"
+  },
+  "2.2.26": {
+    "code": "2.2.26",
+    "description": "拒絕 RDP 登錄 = 訪客 (僅限 DC, 自動化)",
+    "level": "L1",
+    "full_text": "2.2.26 (L1) 拒絕 RDP 登錄 = 訪客 (僅限 DC, 自動化)"
+  },
+  "2.2.27": {
+    "code": "2.2.27",
+    "description": "拒絕 RDP 登錄 = 訪客, 本地帳戶 (僅限 MS, 自動化)",
+    "level": "L1",
+    "full_text": "2.2.27 (L1) 拒絕 RDP 登錄 = 訪客, 本地帳戶 (僅限 MS, 自動化)"
+  },
+  "2.2.28": {
+    "code": "2.2.28",
+    "description": "啟用委派信任 = 管理員 (僅限 DC, 自動化)",
+    "level": "L1",
+    "full_text": "2.2.28 (L1) 啟用委派信任 = 管理員 (僅限 DC, 自動化)"
+  },
+  "2.2.29": {
+    "code": "2.2.29",
+    "description": "啟用委派信任 = 無 (僅限 MS, 自動化)",
+    "level": "L1",
+    "full_text": "2.2.29 (L1) 啟用委派信任 = 無 (僅限 MS, 自動化)"
+  },
+  "2.2.30": {
+    "code": "2.2.30",
+    "description": "強制遠程關機 = 管理員 (自動化)",
+    "level": "L1",
+    "full_text": "2.2.30 (L1) 強制遠程關機 = 管理員 (自動化)"
+  },
+  "2.2.31": {
+    "code": "2.2.31",
+    "description": "生成安全審計 = 本地服務, 網絡服務 (自動化)",
+    "level": "L1",
+    "full_text": "2.2.31 (L1) 生成安全審計 = 本地服務, 網絡服務 (自動化)"
+  },
+  "2.2.32": {
+    "code": "2.2.32",
+    "description": "身份驗證後模擬客戶端 = 管理員, 本地/網絡服務, 服務 (僅限 DC, 自動化)",
+    "level": "L1",
+    "full_text": "2.2.32 (L1) 身份驗證後模擬客戶端 = 管理員, 本地/網絡服務, 服務 (僅限 DC, 自動化)"
+  },
+  "2.2.33": {
+    "code": "2.2.33",
+    "description": "確保 '身份驗證後模擬客戶端' 設為 '  set to '管理員, LOCAL SERVICE, NETWORK SERVICE, SERVICE' 及 (when the Web Server'",
+    "level": "L1",
+    "full_text": "2.2.33 (L1) 確保 '身份驗證後模擬客戶端' 設為 '  set to '管理員, LOCAL SERVICE, NETWORK SERVICE, SERVICE' 及 (when the Web Server'"
+  },
+  "2.2.34": {
+    "code": "2.2.34",
+    "description": "提高調度優先級 = 管理員, 窗口管理器組 (自動化)",
+    "level": "L1",
+    "full_text": "2.2.34 (L1) 提高調度優先級 = 管理員, 窗口管理器組 (自動化)"
+  },
+  "2.2.35": {
+    "code": "2.2.35",
+    "description": "加載/卸載驅動程序 = 管理員 (自動化)",
+    "level": "L1",
+    "full_text": "2.2.35 (L1) 加載/卸載驅動程序 = 管理員 (自動化)"
+  },
+  "2.2.36": {
+    "code": "2.2.36",
+    "description": "鎖定內存中的頁面 = 無 (自動化)",
+    "level": "L1",
+    "full_text": "2.2.36 (L1) 鎖定內存中的頁面 = 無 (自動化)"
+  },
+  "2.2.37": {
+    "code": "2.2.37",
+    "description": "作為批處理作業登錄 = 管理員 (僅限 DC, 自動化)",
+    "level": "L2",
+    "full_text": "2.2.37 (L2) 作為批處理作業登錄 = 管理員 (僅限 DC, 自動化)"
+  },
+  "2.2.38": {
+    "code": "2.2.38",
+    "description": "管理審計/安全日誌 = 管理員 (僅限 DC, 自動化)",
+    "level": "L1",
+    "full_text": "2.2.38 (L1) 管理審計/安全日誌 = 管理員 (僅限 DC, 自動化)"
+  },
+  "2.2.39": {
+    "code": "2.2.39",
+    "description": "管理審計/安全日誌 = 管理員 (僅限 MS, 自動化)",
+    "level": "L1",
+    "full_text": "2.2.39 (L1) 管理審計/安全日誌 = 管理員 (僅限 MS, 自動化)"
+  },
+  "2.2.40": {
+    "code": "2.2.40",
+    "description": "修改對象標籤 = 無 (自動化)",
+    "level": "L1",
+    "full_text": "2.2.40 (L1) 修改對象標籤 = 無 (自動化)"
+  },
+  "2.2.41": {
+    "code": "2.2.41",
+    "description": "修改固件環境值 = 管理員 (自動化)",
+    "level": "L1",
+    "full_text": "2.2.41 (L1) 修改固件環境值 = 管理員 (自動化)"
+  },
+  "2.2.42": {
+    "code": "2.2.42",
+    "description": "執行卷維護任務 = 管理員 (自動化)",
+    "level": "L1",
+    "full_text": "2.2.42 (L1) 執行卷維護任務 = 管理員 (自動化)"
+  },
+  "2.2.43": {
+    "code": "2.2.43",
+    "description": "分析單個進程 = 管理員 (自動化)",
+    "level": "L1",
+    "full_text": "2.2.43 (L1) 分析單個進程 = 管理員 (自動化)"
+  },
+  "2.2.44": {
+    "code": "2.2.44",
+    "description": "確保 '分析系統性能' 設為 '管理員, NT SERVICE\\WdiServiceHost'",
+    "level": "L1",
+    "full_text": "2.2.44 (L1) 確保 '分析系統性能' 設為 '管理員, NT SERVICE\\WdiServiceHost'"
+  },
+  "2.2.45": {
+    "code": "2.2.45",
+    "description": "替換進程級令牌 = 本地服務, 網絡服務 (自動化)",
+    "level": "L1",
+    "full_text": "2.2.45 (L1) 替換進程級令牌 = 本地服務, 網絡服務 (自動化)"
+  },
+  "2.2.46": {
+    "code": "2.2.46",
+    "description": "恢復文件/目錄 = 管理員 (自動化)",
+    "level": "L1",
+    "full_text": "2.2.46 (L1) 恢復文件/目錄 = 管理員 (自動化)"
+  },
+  "2.2.47": {
+    "code": "2.2.47",
+    "description": "關閉系統 = 管理員 (自動化)",
+    "level": "L1",
+    "full_text": "2.2.47 (L1) 關閉系統 = 管理員 (自動化)"
+  },
+  "2.2.48": {
+    "code": "2.2.48",
+    "description": "同步目錄服務數據 = 無 (僅限 DC, 自動化)",
+    "level": "L1",
+    "full_text": "2.2.48 (L1) 同步目錄服務數據 = 無 (僅限 DC, 自動化)"
+  },
+  "2.2.49": {
+    "code": "2.2.49",
+    "description": "獲取文件/對象的所有權 = 管理員 (自動化)",
+    "level": "L1",
+    "full_text": "2.2.49 (L1) 獲取文件/對象的所有權 = 管理員 (自動化)"
+  },
+  "2.3.1.1": {
+    "code": "2.3.1.1",
+    "description": "訪客帳戶狀態 = 已禁用 (僅限 MS, 自動化)",
+    "level": "L1",
+    "full_text": "2.3.1.1 (L1) 訪客帳戶狀態 = 已禁用 (僅限 MS, 自動化)"
+  },
+  "2.3.1.2": {
+    "code": "2.3.1.2",
+    "description": "限制使用空密碼 = 已啟用 (自動化)",
+    "level": "L1",
+    "full_text": "2.3.1.2 (L1) 限制使用空密碼 = 已啟用 (自動化)"
+  },
+  "2.3.1.3": {
+    "code": "2.3.1.3",
+    "description": "重命名管理員帳戶 (自動化)",
+    "level": "L1",
+    "full_text": "2.3.1.3 (L1) 重命名管理員帳戶 (自動化)"
+  },
+  "2.3.1.4": {
+    "code": "2.3.1.4",
+    "description": "重命名訪客帳戶 (自動化)",
+    "level": "L1",
+    "full_text": "2.3.1.4 (L1) 重命名訪客帳戶 (自動化)"
+  },
+  "2.3.2.1": {
+    "code": "2.3.2.1",
+    "description": "強制審計子類別覆蓋 = 已啟用 (自動化)",
+    "level": "L1",
+    "full_text": "2.3.2.1 (L1) 強制審計子類別覆蓋 = 已啟用 (自動化)"
+  },
+  "2.3.2.2": {
+    "code": "2.3.2.2",
+    "description": "如果無法記錄審計則關機 = 已禁用 (自動化)",
+    "level": "L1",
+    "full_text": "2.3.2.2 (L1) 如果無法記錄審計則關機 = 已禁用 (自動化)"
+  },
+  "2.3.4.1": {
+    "code": "2.3.4.1",
+    "description": "阻止打印機驅動程序安裝 = 已啟用 (自動化)",
+    "level": "L1",
+    "full_text": "2.3.4.1 (L1) 阻止打印機驅動程序安裝 = 已啟用 (自動化)"
+  },
+  "2.3.5.1": {
+    "code": "2.3.5.1",
+    "description": "域控制器: 允許服務器操作員計劃任務 = 已禁用 (僅限 DC, 自動化)",
+    "level": "L1",
+    "full_text": "2.3.5.1 (L1) 域控制器: 允許服務器操作員計劃任務 = 已禁用 (僅限 DC, 自動化)"
+  },
+  "2.3.5.2": {
+    "code": "2.3.5.2",
+    "description": "域控制器: 允許易受攻擊的 Netlogon 安全通道 = 未配置 (僅限 DC, 自動化)",
+    "level": "L1",
+    "full_text": "2.3.5.2 (L1) 域控制器: 允許易受攻擊的 Netlogon 安全通道 = 未配置 (僅限 DC, 自動化)"
+  },
+  "2.3.5.3": {
+    "code": "2.3.5.3",
+    "description": "域控制器: LDAP 通道綁定令牌 = 始終 (僅限 DC, 自動化)",
+    "level": "L1",
+    "full_text": "2.3.5.3 (L1) 域控制器: LDAP 通道綁定令牌 = 始終 (僅限 DC, 自動化)"
+  },
+  "2.3.5.4": {
+    "code": "2.3.5.4",
+    "description": "域控制器: LDAP 簽名要求 = 需要簽名 (僅限 DC, 自動化)",
+    "level": "L1",
+    "full_text": "2.3.5.4 (L1) 域控制器: LDAP 簽名要求 = 需要簽名 (僅限 DC, 自動化)"
+  },
+  "2.3.5.5": {
+    "code": "2.3.5.5",
+    "description": "域控制器: 拒絕計算機帳戶密碼更改 = 已禁用 (僅限 DC, 自動化)",
+    "level": "L1",
+    "full_text": "2.3.5.5 (L1) 域控制器: 拒絕計算機帳戶密碼更改 = 已禁用 (僅限 DC, 自動化)"
+  },
+  "2.3.6.1": {
+    "code": "2.3.6.1",
+    "description": "域成員: 始終加密/簽名安全通道 = 已啟用 (自動化)",
+    "level": "L1",
+    "full_text": "2.3.6.1 (L1) 域成員: 始終加密/簽名安全通道 = 已啟用 (自動化)"
+  },
+  "2.3.6.2": {
+    "code": "2.3.6.2",
+    "description": "域成員: 儘可能加密安全通道 = 已啟用 (自動化)",
+    "level": "L1",
+    "full_text": "2.3.6.2 (L1) 域成員: 儘可能加密安全通道 = 已啟用 (自動化)"
+  },
+  "2.3.6.3": {
+    "code": "2.3.6.3",
+    "description": "域成員: 對安全通道數據進行數字簽名 (儘可能) = 已啟用 (自動化)",
+    "level": "L1",
+    "full_text": "2.3.6.3 (L1) 域成員: 對安全通道數據進行數字簽名 (儘可能) = 已啟用 (自動化)"
+  },
+  "2.3.6.4": {
+    "code": "2.3.6.4",
+    "description": "域成員: 禁用計算機帳戶密碼更改 = 已禁用 (自動化)",
+    "level": "L1",
+    "full_text": "2.3.6.4 (L1) 域成員: 禁用計算機帳戶密碼更改 = 已禁用 (自動化)"
+  },
+  "2.3.6.5": {
+    "code": "2.3.6.5",
+    "description": "域成員: 計算機帳戶密碼最長使用期限 ≤ 30 天, 非 0 (自動化)",
+    "level": "L1",
+    "full_text": "2.3.6.5 (L1) 域成員: 計算機帳戶密碼最長使用期限 ≤ 30 天, 非 0 (自動化)"
+  },
+  "2.3.6.6": {
+    "code": "2.3.6.6",
+    "description": "域成員: 需要強(Windows 2000 或更高版本)會話密鑰 = 已啟用 (自動化)",
+    "level": "L1",
+    "full_text": "2.3.6.6 (L1) 域成員: 需要強(Windows 2000 或更高版本)會話密鑰 = 已啟用 (自動化)"
+  },
+  "2.3.7.1": {
+    "code": "2.3.7.1",
+    "description": "交互式登錄: 不需要按 CTRL+ALT+DEL = 已禁用 (自動化)",
+    "level": "L1",
+    "full_text": "2.3.7.1 (L1) 交互式登錄: 不需要按 CTRL+ALT+DEL = 已禁用 (自動化)"
+  },
+  "2.3.7.2": {
+    "code": "2.3.7.2",
+    "description": "交互式登錄: 不顯示上次登錄信息 = 已啟用 (自動化)",
+    "level": "L1",
+    "full_text": "2.3.7.2 (L1) 交互式登錄: 不顯示上次登錄信息 = 已啟用 (自動化)"
+  },
+  "2.3.7.3": {
+    "code": "2.3.7.3",
+    "description": "交互式登錄: 機器不活動限制 ≤ 900 秒, 非 0 (自動化)",
+    "level": "L1",
+    "full_text": "2.3.7.3 (L1) 交互式登錄: 機器不活動限制 ≤ 900 秒, 非 0 (自動化)"
+  },
+  "2.3.7.4": {
+    "code": "2.3.7.4",
+    "description": "交互式登錄: 登錄嘗試的消息文本 (自動化)",
+    "level": "L1",
+    "full_text": "2.3.7.4 (L1) 交互式登錄: 登錄嘗試的消息文本 (自動化)"
+  },
+  "2.3.7.5": {
+    "code": "2.3.7.5",
+    "description": "交互式登錄: 登錄嘗試的消息標題 (自動化)",
+    "level": "L1",
+    "full_text": "2.3.7.5 (L1) 交互式登錄: 登錄嘗試的消息標題 (自動化)"
+  },
+  "2.3.7.6": {
+    "code": "2.3.7.6",
+    "description": "交互式登錄: 要緩存的先前登錄次數 (如果 DC 不可用) ≤ 4 (僅限 MS, 自動化)",
+    "level": "L2",
+    "full_text": "2.3.7.6 (L2) 交互式登錄: 要緩存的先前登錄次數 (如果 DC 不可用) ≤ 4 (僅限 MS, 自動化)"
+  },
+  "2.3.7.7": {
+    "code": "2.3.7.7",
+    "description": "交互式登錄: 在過期前提示用戶更改密碼 = 5–14 天 (自動化)",
+    "level": "L1",
+    "full_text": "2.3.7.7 (L1) 交互式登錄: 在過期前提示用戶更改密碼 = 5–14 天 (自動化)"
+  },
+  "2.3.7.8": {
+    "code": "2.3.7.8",
+    "description": "交互式登錄: 需要 DC 身份驗證才能解鎖工作站 = 已啟用 (僅限 MS, 自動化)",
+    "level": "L1",
+    "full_text": "2.3.7.8 (L1) 交互式登錄: 需要 DC 身份驗證才能解鎖工作站 = 已啟用 (僅限 MS, 自動化)"
+  },
+  "2.3.7.9": {
+    "code": "2.3.7.9",
+    "description": "交互式登錄: 智能卡移除行為 = 鎖定工作站或更高 (自動化)",
+    "level": "L1",
+    "full_text": "2.3.7.9 (L1) 交互式登錄: 智能卡移除行為 = 鎖定工作站或更高 (自動化)"
+  },
+  "2.3.8.1": {
+    "code": "2.3.8.1",
+    "description": "Microsoft 網絡客戶端: 對通信進行數字簽名 (始終) = 已啟用 (自動化)",
+    "level": "L1",
+    "full_text": "2.3.8.1 (L1) Microsoft 網絡客戶端: 對通信進行數字簽名 (始終) = 已啟用 (自動化)"
+  },
+  "2.3.8.2": {
+    "code": "2.3.8.2",
+    "description": "Microsoft 網絡客戶端: 對通信進行數字簽名 (如果服務器同意) = 已啟用 (自動化)",
+    "level": "L1",
+    "full_text": "2.3.8.2 (L1) Microsoft 網絡客戶端: 對通信進行數字簽名 (如果服務器同意) = 已啟用 (自動化)"
+  },
+  "2.3.8.3": {
+    "code": "2.3.8.3",
+    "description": "Microsoft 網絡客戶端: 向 SMB 服務器發送未加密的密碼 = 已禁用 (自動化)",
+    "level": "L1",
+    "full_text": "2.3.8.3 (L1) Microsoft 網絡客戶端: 向 SMB 服務器發送未加密的密碼 = 已禁用 (自動化)"
+  },
+  "2.3.9.1": {
+    "code": "2.3.9.1",
+    "description": "Microsoft 網絡服務器: 掛起前的空閒時間 ≤ 15 分鐘 (自動化)",
+    "level": "L1",
+    "full_text": "2.3.9.1 (L1) Microsoft 網絡服務器: 掛起前的空閒時間 ≤ 15 分鐘 (自動化)"
+  },
+  "2.3.9.2": {
+    "code": "2.3.9.2",
+    "description": "Microsoft 網絡服務器: 對通信進行數字簽名 (始終) = 已啟用 (自動化)",
+    "level": "L1",
+    "full_text": "2.3.9.2 (L1) Microsoft 網絡服務器: 對通信進行數字簽名 (始終) = 已啟用 (自動化)"
+  },
+  "2.3.9.3": {
+    "code": "2.3.9.3",
+    "description": "Microsoft 網絡服務器: 對通信進行數字簽名 (如果客戶端同意) = 已啟用 (自動化)",
+    "level": "L1",
+    "full_text": "2.3.9.3 (L1) Microsoft 網絡服務器: 對通信進行數字簽名 (如果客戶端同意) = 已啟用 (自動化)"
+  },
+  "2.3.9.4": {
+    "code": "2.3.9.4",
+    "description": "Microsoft 網絡服務器: 登錄時間到期時斷開客戶端連接 = 已啟用 (自動化)",
+    "level": "L1",
+    "full_text": "2.3.9.4 (L1) Microsoft 網絡服務器: 登錄時間到期時斷開客戶端連接 = 已啟用 (自動化)"
+  },
+  "2.3.9.5": {
+    "code": "2.3.9.5",
+    "description": "Microsoft 網絡服務器: SPN 目標名稱驗證級別 = 如果客戶端提供或更高則接受 (僅限 MS, 自動化)",
+    "level": "L1",
+    "full_text": "2.3.9.5 (L1) Microsoft 網絡服務器: SPN 目標名稱驗證級別 = 如果客戶端提供或更高則接受 (僅限 MS, 自動化)"
+  },
+  "2.3.10.1": {
+    "code": "2.3.10.1",
+    "description": "網絡訪問: 允許匿名 SID/名稱轉換 = 已禁用 (自動化)",
+    "level": "L1",
+    "full_text": "2.3.10.1 (L1) 網絡訪問: 允許匿名 SID/名稱轉換 = 已禁用 (自動化)"
+  },
+  "2.3.10.2": {
+    "code": "2.3.10.2",
+    "description": "網絡訪問: 不允許匿名枚舉 SAM 帳戶 = 已啟用 (僅限 MS, 自動化)",
+    "level": "L1",
+    "full_text": "2.3.10.2 (L1) 網絡訪問: 不允許匿名枚舉 SAM 帳戶 = 已啟用 (僅限 MS, 自動化)"
+  },
+  "2.3.10.3": {
+    "code": "2.3.10.3",
+    "description": "網絡訪問: 不允許匿名枚舉 SAM 帳戶和共享 = 已啟用 (僅限 MS, 自動化)",
+    "level": "L1",
+    "full_text": "2.3.10.3 (L1) 網絡訪問: 不允許匿名枚舉 SAM 帳戶和共享 = 已啟用 (僅限 MS, 自動化)"
+  },
+  "2.3.10.4": {
+    "code": "2.3.10.4",
+    "description": "網絡訪問: 不允許存儲用於網絡身份驗證的密碼/憑據 = 已啟用 (自動化)",
+    "level": "L1",
+    "full_text": "2.3.10.4 (L1) 網絡訪問: 不允許存儲用於網絡身份驗證的密碼/憑據 = 已啟用 (自動化)"
+  },
+  "2.3.10.5": {
+    "code": "2.3.10.5",
+    "description": "網絡訪問: 讓 Everyone 權限應用於匿名用戶 = 已禁用 (自動化)",
+    "level": "L1",
+    "full_text": "2.3.10.5 (L1) 網絡訪問: 讓 Everyone 權限應用於匿名用戶 = 已禁用 (自動化)"
+  },
+  "2.3.10.6": {
+    "code": "2.3.10.6",
+    "description": "網絡訪問: 可匿名訪問的命名管道 = 已配置 (僅限 DC, 自動化)",
+    "level": "L1",
+    "full_text": "2.3.10.6 (L1) 網絡訪問: 可匿名訪問的命名管道 = 已配置 (僅限 DC, 自動化)"
+  },
+  "2.3.10.7": {
+    "code": "2.3.10.7",
+    "description": "網絡訪問: 可匿名訪問的命名管道 = 已配置 (僅限 MS, 自動化)",
+    "level": "L1",
+    "full_text": "2.3.10.7 (L1) 網絡訪問: 可匿名訪問的命名管道 = 已配置 (僅限 MS, 自動化)"
+  },
+  "2.3.10.8": {
+    "code": "2.3.10.8",
+    "description": "網絡訪問: 可遠程訪問的註冊表路徑 = 已配置 (自動化)",
+    "level": "L1",
+    "full_text": "2.3.10.8 (L1) 網絡訪問: 可遠程訪問的註冊表路徑 = 已配置 (自動化)"
+  },
+  "2.3.10.9": {
+    "code": "2.3.10.9",
+    "description": "網絡訪問: 可遠程訪問的註冊表路徑和子路徑 = 已配置 (自動化)",
+    "level": "L1",
+    "full_text": "2.3.10.9 (L1) 網絡訪問: 可遠程訪問的註冊表路徑和子路徑 = 已配置 (自動化)"
+  },
+  "2.3.10.10": {
+    "code": "2.3.10.10",
+    "description": "網絡訪問: 限制對命名管道和共享的匿名訪問 = 已啟用 (自動化)",
+    "level": "L1",
+    "full_text": "2.3.10.10 (L1) 網絡訪問: 限制對命名管道和共享的匿名訪問 = 已啟用 (自動化)"
+  },
+  "2.3.10.11": {
+    "code": "2.3.10.11",
+    "description": "網絡訪問: 限制允許對 SAM 進行遠程調用的客戶端 = 管理員: 遠程訪問: 允許 (僅限 MS, 自動化)",
+    "level": "L1",
+    "full_text": "2.3.10.11 (L1) 網絡訪問: 限制允許對 SAM 進行遠程調用的客戶端 = 管理員: 遠程訪問: 允許 (僅限 MS, 自動化)"
+  },
+  "2.3.10.12": {
+    "code": "2.3.10.12",
+    "description": "網絡訪問: 可匿名訪問的共享 = 無 (自動化)",
+    "level": "L1",
+    "full_text": "2.3.10.12 (L1) 網絡訪問: 可匿名訪問的共享 = 無 (自動化)"
+  },
+  "2.3.10.13": {
+    "code": "2.3.10.13",
+    "description": "網絡訪問: 本地帳戶的共享/安全模型 = 經典 – 本地用戶作為自身進行身份驗證 (自動化)",
+    "level": "L1",
+    "full_text": "2.3.10.13 (L1) 網絡訪問: 本地帳戶的共享/安全模型 = 經典 – 本地用戶作為自身進行身份驗證 (自動化)"
+  },
+  "2.3.11.1": {
+    "code": "2.3.11.1",
+    "description": "網絡安全: 允許本地系統使用計算機標識進行 NTLM = 已啟用 (自動化)",
+    "level": "L1",
+    "full_text": "2.3.11.1 (L1) 網絡安全: 允許本地系統使用計算機標識進行 NTLM = 已啟用 (自動化)"
+  },
+  "2.3.11.2": {
+    "code": "2.3.11.2",
+    "description": "網絡安全: 允許 LocalSystem 空會話回退 = 已禁用 (自動化)",
+    "level": "L1",
+    "full_text": "2.3.11.2 (L1) 網絡安全: 允許 LocalSystem 空會話回退 = 已禁用 (自動化)"
+  },
+  "2.3.11.3": {
+    "code": "2.3.11.3",
+    "description": "確保 'Network Security: 允許 PKU2U authentication requests to this computer to use online identities' 設為 '已禁用'",
+    "level": "L1",
+    "full_text": "2.3.11.3 (L1) 確保 'Network Security: 允許 PKU2U authentication requests to this computer to use online identities' 設為 '已禁用'"
+  },
+  "2.3.11.4": {
+    "code": "2.3.11.4",
+    "description": "網絡安全: 配置 Kerberos 加密類型 = AES128_HMAC_SHA1, AES256_HMAC_SHA1, 未來類型 (自動化)",
+    "level": "L1",
+    "full_text": "2.3.11.4 (L1) 網絡安全: 配置 Kerberos 加密類型 = AES128_HMAC_SHA1, AES256_HMAC_SHA1, 未來類型 (自動化)"
+  },
+  "2.3.11.5": {
+    "code": "2.3.11.5",
+    "description": "確保 '網絡安全: 下次更改密碼時不存儲 LAN Manager 哈希值' 設為 '已啟用'",
+    "level": "L1",
+    "full_text": "2.3.11.5 (L1) 確保 '網絡安全: 下次更改密碼時不存儲 LAN Manager 哈希值' 設為 '已啟用'"
+  },
+  "2.3.11.6": {
+    "code": "2.3.11.6",
+    "description": "網絡安全: 登錄時間到期時強制註銷 = 已啟用 (手動)",
+    "level": "L1",
+    "full_text": "2.3.11.6 (L1) 網絡安全: 登錄時間到期時強制註銷 = 已啟用 (手動)"
+  },
+  "2.3.11.7": {
+    "code": "2.3.11.7",
+    "description": "確保 '網絡安全: LAN Manager 身份驗證級別' 設為 'Send NTLMv2 response only. Refuse LM & NTLM'",
+    "level": "L1",
+    "full_text": "2.3.11.7 (L1) 確保 '網絡安全: LAN Manager 身份驗證級別' 設為 'Send NTLMv2 response only. Refuse LM & NTLM'"
+  },
+  "2.3.11.8": {
+    "code": "2.3.11.8",
+    "description": "網絡安全: LDAP 客戶端加密要求 = 協商密封或更高 (自動化)",
+    "level": "L1",
+    "full_text": "2.3.11.8 (L1) 網絡安全: LDAP 客戶端加密要求 = 協商密封或更高 (自動化)"
+  },
+  "2.3.11.9": {
+    "code": "2.3.11.9",
+    "description": "網絡安全: LDAP 客戶端簽名要求 = 協商簽名或更高 (自動化)",
+    "level": "L1",
+    "full_text": "2.3.11.9 (L1) 網絡安全: LDAP 客戶端簽名要求 = 協商簽名或更高 (自動化)"
+  },
+  "2.3.11.10": {
+    "code": "2.3.11.10",
+    "description": "確保 'Network security: Minimum 工作階段 security for NTLM SSP based (including secure RPC) clients' 設為 '要求 NTLMv2 工作階段 security, 要求 128-bit encryption'",
+    "level": "L1",
+    "full_text": "2.3.11.10 (L1) 確保 'Network security: Minimum 工作階段 security for NTLM SSP based (including secure RPC) clients' 設為 '要求 NTLMv2 工作階段 security, 要求 128-bit encryption'"
+  },
+  "2.3.11.11": {
+    "code": "2.3.11.11",
+    "description": "確保 'Network security: Minimum 工作階段 security for NTLM SSP based (including secure RPC) servers' 設為 '要求 NTLMv2 工作階段 security, 要求 128-bit encryption'",
+    "level": "L1",
+    "full_text": "2.3.11.11 (L1) 確保 'Network security: Minimum 工作階段 security for NTLM SSP based (including secure RPC) servers' 設為 '要求 NTLMv2 工作階段 security, 要求 128-bit encryption'"
+  },
+  "2.3.11.12": {
+    "code": "2.3.11.12",
+    "description": "限制 NTLM: 審計傳入的 NTLM 流量 = 為所有帳戶啟用審計 (自動化)",
+    "level": "L1",
+    "full_text": "2.3.11.12 (L1) 限制 NTLM: 審計傳入的 NTLM 流量 = 為所有帳戶啟用審計 (自動化)"
+  },
+  "2.3.11.13": {
+    "code": "2.3.11.13",
+    "description": "限制 NTLM: 審計此域中的 NTLM 身份驗證 = 全部啟用 (僅限 DC, 自動化)",
+    "level": "L1",
+    "full_text": "2.3.11.13 (L1) 限制 NTLM: 審計此域中的 NTLM 身份驗證 = 全部啟用 (僅限 DC, 自動化)"
+  },
+  "2.3.11.14": {
+    "code": "2.3.11.14",
+    "description": "限制 NTLM: 發往遠程服務器的傳出 NTLM 流量 = 審計所有或更高 (自動化)",
+    "level": "L1",
+    "full_text": "2.3.11.14 (L1) 限制 NTLM: 發往遠程服務器的傳出 NTLM 流量 = 審計所有或更高 (自動化)"
+  },
+  "2.3.13.1": {
+    "code": "2.3.13.1",
+    "description": "關機: 允許在未登錄的情況下關閉系統 = 已禁用 (自動化)",
+    "level": "L1",
+    "full_text": "2.3.13.1 (L1) 關機: 允許在未登錄的情況下關閉系統 = 已禁用 (自動化)"
+  },
+  "2.3.15.1": {
+    "code": "2.3.15.1",
+    "description": "系統對象: 要求非 Windows 子系統不區分大小寫 = 已啟用 (自動化)",
+    "level": "L1",
+    "full_text": "2.3.15.1 (L1) 系統對象: 要求非 Windows 子系統不區分大小寫 = 已啟用 (自動化)"
+  },
+  "2.3.15.2": {
+    "code": "2.3.15.2",
+    "description": "系統對象: 加強內部系統對象的默認權限 = 已啟用 (自動化)",
+    "level": "L1",
+    "full_text": "2.3.15.2 (L1) 系統對象: 加強內部系統對象的默認權限 = 已啟用 (自動化)"
+  },
+  "2.3.17.1": {
+    "code": "2.3.17.1",
+    "description": "用戶帳戶控制: 內置管理員的管理員批准模式 = 已啟用 (自動化)",
+    "level": "L1",
+    "full_text": "2.3.17.1 (L1) 用戶帳戶控制: 內置管理員的管理員批准模式 = 已啟用 (自動化)"
+  },
+  "2.3.17.2": {
+    "code": "2.3.17.2",
+    "description": "用戶帳戶控制: 管理員的提升提示 = 在安全桌面上提示同意或更高 (自動化)",
+    "level": "L1",
+    "full_text": "2.3.17.2 (L1) 用戶帳戶控制: 管理員的提升提示 = 在安全桌面上提示同意或更高 (自動化)"
+  },
+  "2.3.17.3": {
+    "code": "2.3.17.3",
+    "description": "用戶帳戶控制: 標準用戶的提升提示 = 自動拒絕提升請求 (自動化)",
+    "level": "L1",
+    "full_text": "2.3.17.3 (L1) 用戶帳戶控制: 標準用戶的提升提示 = 自動拒絕提升請求 (自動化)"
+  },
+  "2.3.17.4": {
+    "code": "2.3.17.4",
+    "description": "用戶帳戶控制: 檢測應用程序安裝並提示提升 = 已啟用 (自動化)",
+    "level": "L1",
+    "full_text": "2.3.17.4 (L1) 用戶帳戶控制: 檢測應用程序安裝並提示提升 = 已啟用 (自動化)"
+  },
+  "2.3.17.5": {
+    "code": "2.3.17.5",
+    "description": "用戶帳戶控制: 僅在安全位置提升 UIAccess 應用程序 = 已啟用 (自動化)",
+    "level": "L1",
+    "full_text": "2.3.17.5 (L1) 用戶帳戶控制: 僅在安全位置提升 UIAccess 應用程序 = 已啟用 (自動化)"
+  },
+  "2.3.17.6": {
+    "code": "2.3.17.6",
+    "description": "用戶帳戶控制: 以管理員批准模式運行所有管理員 = 已啟用 (自動化)",
+    "level": "L1",
+    "full_text": "2.3.17.6 (L1) 用戶帳戶控制: 以管理員批准模式運行所有管理員 = 已啟用 (自動化)"
+  },
+  "2.3.17.7": {
+    "code": "2.3.17.7",
+    "description": "用戶帳戶控制: 提示提升時切換到安全桌面 = 已啟用 (自動化)",
+    "level": "L1",
+    "full_text": "2.3.17.7 (L1) 用戶帳戶控制: 提示提升時切換到安全桌面 = 已啟用 (自動化)"
+  },
+  "2.3.17.8": {
+    "code": "2.3.17.8",
+    "description": "用戶帳戶控制: 將文件/註冊表寫入失敗虛擬化到每用戶位置 = 已啟用 (自動化)",
+    "level": "L1",
+    "full_text": "2.3.17.8 (L1) 用戶帳戶控制: 將文件/註冊表寫入失敗虛擬化到每用戶位置 = 已啟用 (自動化)"
+  },
+  "5.1": {
+    "code": "5.1",
+    "description": "打印後台處理程序服務 = 已禁用 (僅限 DC, 自動化)",
+    "level": "L1",
+    "full_text": "5.1 (L1) 打印後台處理程序服務 = 已禁用 (僅限 DC, 自動化)"
+  },
+  "5.2": {
+    "code": "5.2",
+    "description": "打印後台處理程序服務 = 已禁用 (僅限 MS, 自動化)",
+    "level": "L1",
+    "full_text": "5.2 (L1) 打印後台處理程序服務 = 已禁用 (僅限 MS, 自動化)"
+  },
+  "9.1.1": {
+    "code": "9.1.1",
+    "description": "防火牆狀態 = On (自動化)",
+    "level": "L1",
+    "full_text": "9.1.1 (L1) 防火牆狀態 = On (自動化)"
+  },
+  "9.1.2": {
+    "code": "9.1.2",
+    "description": "入站連接 = 阻止 (默認) (自動化)",
+    "level": "L1",
+    "full_text": "9.1.2 (L1) 入站連接 = 阻止 (默認) (自動化)"
+  },
+  "9.1.3": {
+    "code": "9.1.3",
+    "description": "顯示通知 = 否 (自動化)",
+    "level": "L1",
+    "full_text": "9.1.3 (L1) 顯示通知 = 否 (自動化)"
+  },
+  "9.1.4": {
+    "code": "9.1.4",
+    "description": "確保 'Windows Firewall: Domain: Logging: Name' 設為 '%SystemRoot%\\System32\\logfiles\\firewall\\domainfw.log'",
+    "level": "L1",
+    "full_text": "9.1.4 (L1) 確保 'Windows Firewall: Domain: Logging: Name' 設為 '%SystemRoot%\\System32\\logfiles\\firewall\\domainfw.log'"
+  },
+  "9.1.5": {
+    "code": "9.1.5",
+    "description": "日誌大小限制 ≥ 16,384 KB (自動化)",
+    "level": "L1",
+    "full_text": "9.1.5 (L1) 日誌大小限制 ≥ 16,384 KB (自動化)"
+  },
+  "9.1.6": {
+    "code": "9.1.6",
+    "description": "記錄丟棄的數據包 = 是 (自動化)",
+    "level": "L1",
+    "full_text": "9.1.6 (L1) 記錄丟棄的數據包 = 是 (自動化)"
+  },
+  "9.1.7": {
+    "code": "9.1.7",
+    "description": "記錄成功的連接 = 是 (自動化)",
+    "level": "L1",
+    "full_text": "9.1.7 (L1) 記錄成功的連接 = 是 (自動化)"
+  },
+  "9.2.1": {
+    "code": "9.2.1",
+    "description": "防火牆狀態 = On (自動化)",
+    "level": "L1",
+    "full_text": "9.2.1 (L1) 防火牆狀態 = On (自動化)"
+  },
+  "9.2.2": {
+    "code": "9.2.2",
+    "description": "入站連接 = 阻止 (默認) (自動化)",
+    "level": "L1",
+    "full_text": "9.2.2 (L1) 入站連接 = 阻止 (默認) (自動化)"
+  },
+  "9.2.3": {
+    "code": "9.2.3",
+    "description": "顯示通知 = 否 (自動化)",
+    "level": "L1",
+    "full_text": "9.2.3 (L1) 顯示通知 = 否 (自動化)"
+  },
+  "9.2.4": {
+    "code": "9.2.4",
+    "description": "確保 'Windows Firewall: Private: Logging: Name' 設為 '%SystemRoot%\\System32\\logfiles\\firewall\\privatefw.log'",
+    "level": "L1",
+    "full_text": "9.2.4 (L1) 確保 'Windows Firewall: Private: Logging: Name' 設為 '%SystemRoot%\\System32\\logfiles\\firewall\\privatefw.log'"
+  },
+  "9.2.5": {
+    "code": "9.2.5",
+    "description": "日誌大小限制 ≥ 16,384 KB (自動化)",
+    "level": "L1",
+    "full_text": "9.2.5 (L1) 日誌大小限制 ≥ 16,384 KB (自動化)"
+  },
+  "9.2.6": {
+    "code": "9.2.6",
+    "description": "記錄丟棄的數據包 = 是 (自動化)",
+    "level": "L1",
+    "full_text": "9.2.6 (L1) 記錄丟棄的數據包 = 是 (自動化)"
+  },
+  "9.2.7": {
+    "code": "9.2.7",
+    "description": "記錄成功的連接 = 是 (自動化)",
+    "level": "L1",
+    "full_text": "9.2.7 (L1) 記錄成功的連接 = 是 (自動化)"
+  },
+  "9.3.1": {
+    "code": "9.3.1",
+    "description": "防火牆狀態 = On (自動化)",
+    "level": "L1",
+    "full_text": "9.3.1 (L1) 防火牆狀態 = On (自動化)"
+  },
+  "9.3.2": {
+    "code": "9.3.2",
+    "description": "入站連接 = 阻止 (默認) (自動化)",
+    "level": "L1",
+    "full_text": "9.3.2 (L1) 入站連接 = 阻止 (默認) (自動化)"
+  },
+  "9.3.3": {
+    "code": "9.3.3",
+    "description": "顯示通知 = 否 (自動化)",
+    "level": "L1",
+    "full_text": "9.3.3 (L1) 顯示通知 = 否 (自動化)"
+  },
+  "9.3.4": {
+    "code": "9.3.4",
+    "description": "應用本地防火牆規則 = 否 (自動化)",
+    "level": "L1",
+    "full_text": "9.3.4 (L1) 應用本地防火牆規則 = 否 (自動化)"
+  },
+  "9.3.5": {
+    "code": "9.3.5",
+    "description": "應用本地連接安全規則 = 否 (自動化)",
+    "level": "L1",
+    "full_text": "9.3.5 (L1) 應用本地連接安全規則 = 否 (自動化)"
+  },
+  "9.3.6": {
+    "code": "9.3.6",
+    "description": "確保 'Windows Firewall: Public: Logging: Name' 設為 '%SystemRoot%\\System32\\logfiles\\firewall\\publicfw.log'",
+    "level": "L1",
+    "full_text": "9.3.6 (L1) 確保 'Windows Firewall: Public: Logging: Name' 設為 '%SystemRoot%\\System32\\logfiles\\firewall\\publicfw.log'"
+  },
+  "9.3.7": {
+    "code": "9.3.7",
+    "description": "日誌大小限制 ≥ 16,384 KB (自動化)",
+    "level": "L1",
+    "full_text": "9.3.7 (L1) 日誌大小限制 ≥ 16,384 KB (自動化)"
+  },
+  "9.3.8": {
+    "code": "9.3.8",
+    "description": "記錄丟棄的數據包 = 是 (自動化)",
+    "level": "L1",
+    "full_text": "9.3.8 (L1) 記錄丟棄的數據包 = 是 (自動化)"
+  },
+  "9.3.9": {
+    "code": "9.3.9",
+    "description": "記錄成功的連接 = 是 (自動化)",
+    "level": "L1",
+    "full_text": "9.3.9 (L1) 記錄成功的連接 = 是 (自動化)"
+  },
+  "17.1.1": {
+    "code": "17.1.1",
+    "description": "審計憑據驗證 = 成功和失敗 (自動化)",
+    "level": "L1",
+    "full_text": "17.1.1 (L1) 審計憑據驗證 = 成功和失敗 (自動化)"
+  },
+  "17.1.2": {
+    "code": "17.1.2",
+    "description": "審計 Kerberos 身份驗證服務 = 成功和失敗 (僅限 DC, 自動化)",
+    "level": "L1",
+    "full_text": "17.1.2 (L1) 審計 Kerberos 身份驗證服務 = 成功和失敗 (僅限 DC, 自動化)"
+  },
+  "17.1.3": {
+    "code": "17.1.3",
+    "description": "審計 Kerberos 服務票證操作 = 成功和失敗 (僅限 DC, 自動化)",
+    "level": "L1",
+    "full_text": "17.1.3 (L1) 審計 Kerberos 服務票證操作 = 成功和失敗 (僅限 DC, 自動化)"
+  },
+  "17.2.1": {
+    "code": "17.2.1",
+    "description": "審計應用程序組管理 = 成功和失敗 (自動化)",
+    "level": "L1",
+    "full_text": "17.2.1 (L1) 審計應用程序組管理 = 成功和失敗 (自動化)"
+  },
+  "17.2.2": {
+    "code": "17.2.2",
+    "description": "確保 審計計算機帳戶管理 = 包括 成功 (僅限 DC, 自動化)",
+    "level": "L1",
+    "full_text": "17.2.2 (L1) 確保 審計計算機帳戶管理 = 包括 成功 (僅限 DC, 自動化)"
+  },
+  "17.2.3": {
+    "code": "17.2.3",
+    "description": "確保 審計通訊組管理 = 包括 成功 (僅限 DC, 自動化)",
+    "level": "L1",
+    "full_text": "17.2.3 (L1) 確保 審計通訊組管理 = 包括 成功 (僅限 DC, 自動化)"
+  },
+  "17.2.4": {
+    "code": "17.2.4",
+    "description": "確保 審計其他帳戶管理事件 = 包括 成功 (僅限 DC, 自動化)",
+    "level": "L1",
+    "full_text": "17.2.4 (L1) 確保 審計其他帳戶管理事件 = 包括 成功 (僅限 DC, 自動化)"
+  },
+  "17.2.5": {
+    "code": "17.2.5",
+    "description": "確保 審計安全組管理 = 包括 成功 (自動化)",
+    "level": "L1",
+    "full_text": "17.2.5 (L1) 確保 審計安全組管理 = 包括 成功 (自動化)"
+  },
+  "17.2.6": {
+    "code": "17.2.6",
+    "description": "確保 審計用戶帳戶管理 = 成功和失敗 (自動化)",
+    "level": "L1",
+    "full_text": "17.2.6 (L1) 確保 審計用戶帳戶管理 = 成功和失敗 (自動化)"
+  },
+  "17.3.1": {
+    "code": "17.3.1",
+    "description": "確保 審計 PNP 活動 = 包括 成功 (自動化)",
+    "level": "L1",
+    "full_text": "17.3.1 (L1) 確保 審計 PNP 活動 = 包括 成功 (自動化)"
+  },
+  "17.3.2": {
+    "code": "17.3.2",
+    "description": "確保 審計進程創建 = 包括 成功 (自動化)",
+    "level": "L1",
+    "full_text": "17.3.2 (L1) 確保 審計進程創建 = 包括 成功 (自動化)"
+  },
+  "17.4.1": {
+    "code": "17.4.1",
+    "description": "確保 審計目錄服務訪問 = 包括 失敗 (僅限 DC, 自動化)",
+    "level": "L1",
+    "full_text": "17.4.1 (L1) 確保 審計目錄服務訪問 = 包括 失敗 (僅限 DC, 自動化)"
+  },
+  "17.4.2": {
+    "code": "17.4.2",
+    "description": "確保 審計目錄服務更改 = 包括 成功 (僅限 DC, 自動化)",
+    "level": "L1",
+    "full_text": "17.4.2 (L1) 確保 審計目錄服務更改 = 包括 成功 (僅限 DC, 自動化)"
+  },
+  "17.5.1": {
+    "code": "17.5.1",
+    "description": "確保 審計帳戶鎖定 = 包括 失敗 (自動化)",
+    "level": "L1",
+    "full_text": "17.5.1 (L1) 確保 審計帳戶鎖定 = 包括 失敗 (自動化)"
+  },
+  "17.5.2": {
+    "code": "17.5.2",
+    "description": "確保 審計組成員資格 = 包括 成功 (自動化)",
+    "level": "L1",
+    "full_text": "17.5.2 (L1) 確保 審計組成員資格 = 包括 成功 (自動化)"
+  },
+  "17.5.3": {
+    "code": "17.5.3",
+    "description": "確保 審計註銷 = 包括 成功 (自動化)",
+    "level": "L1",
+    "full_text": "17.5.3 (L1) 確保 審計註銷 = 包括 成功 (自動化)"
+  },
+  "17.5.4": {
+    "code": "17.5.4",
+    "description": "確保 審計登錄 = 成功和失敗 (自動化)",
+    "level": "L1",
+    "full_text": "17.5.4 (L1) 確保 審計登錄 = 成功和失敗 (自動化)"
+  },
+  "17.5.5": {
+    "code": "17.5.5",
+    "description": "確保 審計其他登錄/註銷事件 = 成功和失敗 (自動化)",
+    "level": "L1",
+    "full_text": "17.5.5 (L1) 確保 審計其他登錄/註銷事件 = 成功和失敗 (自動化)"
+  },
+  "17.5.6": {
+    "code": "17.5.6",
+    "description": "確保 審計特殊登錄 = 包括 成功 (自動化)",
+    "level": "L1",
+    "full_text": "17.5.6 (L1) 確保 審計特殊登錄 = 包括 成功 (自動化)"
+  },
+  "17.6.1": {
+    "code": "17.6.1",
+    "description": "確保 審計詳細文件共享 = 包括 失敗 (自動化)",
+    "level": "L1",
+    "full_text": "17.6.1 (L1) 確保 審計詳細文件共享 = 包括 失敗 (自動化)"
+  },
+  "17.6.2": {
+    "code": "17.6.2",
+    "description": "確保 審計文件共享 = 成功和失敗 (自動化)",
+    "level": "L1",
+    "full_text": "17.6.2 (L1) 確保 審計文件共享 = 成功和失敗 (自動化)"
+  },
+  "17.6.3": {
+    "code": "17.6.3",
+    "description": "確保 審計其他對象訪問事件 = 成功和失敗 (自動化)",
+    "level": "L1",
+    "full_text": "17.6.3 (L1) 確保 審計其他對象訪問事件 = 成功和失敗 (自動化)"
+  },
+  "17.6.4": {
+    "code": "17.6.4",
+    "description": "確保 審計可移動存儲 = 成功和失敗 (自動化)",
+    "level": "L1",
+    "full_text": "17.6.4 (L1) 確保 審計可移動存儲 = 成功和失敗 (自動化)"
+  },
+  "17.7.1": {
+    "code": "17.7.1",
+    "description": "確保 審計審計策略更改 = 包括 成功 (自動化)",
+    "level": "L1",
+    "full_text": "17.7.1 (L1) 確保 審計審計策略更改 = 包括 成功 (自動化)"
+  },
+  "17.7.2": {
+    "code": "17.7.2",
+    "description": "確保 審計身份驗證策略更改 = 包括 成功 (自動化)",
+    "level": "L1",
+    "full_text": "17.7.2 (L1) 確保 審計身份驗證策略更改 = 包括 成功 (自動化)"
+  },
+  "17.7.3": {
+    "code": "17.7.3",
+    "description": "確保 審計授權策略更改 = 包括 成功 (自動化)",
+    "level": "L1",
+    "full_text": "17.7.3 (L1) 確保 審計授權策略更改 = 包括 成功 (自動化)"
+  },
+  "17.7.4": {
+    "code": "17.7.4",
+    "description": "確保 審計 MPSSVC 規則級策略更改 = 成功和失敗 (自動化)",
+    "level": "L1",
+    "full_text": "17.7.4 (L1) 確保 審計 MPSSVC 規則級策略更改 = 成功和失敗 (自動化)"
+  },
+  "17.7.5": {
+    "code": "17.7.5",
+    "description": "確保 審計其他策略更改事件 = 包括 失敗 (自動化)",
+    "level": "L1",
+    "full_text": "17.7.5 (L1) 確保 審計其他策略更改事件 = 包括 失敗 (自動化)"
+  },
+  "17.8.1": {
+    "code": "17.8.1",
+    "description": "確保 審計敏感特權使用 = 成功和失敗 (自動化)",
+    "level": "L1",
+    "full_text": "17.8.1 (L1) 確保 審計敏感特權使用 = 成功和失敗 (自動化)"
+  },
+  "17.9.1": {
+    "code": "17.9.1",
+    "description": "確保 審計 IPsec 驅動程序 = 成功和失敗 (自動化)",
+    "level": "L1",
+    "full_text": "17.9.1 (L1) 確保 審計 IPsec 驅動程序 = 成功和失敗 (自動化)"
+  },
+  "17.9.2": {
+    "code": "17.9.2",
+    "description": "確保 審計其他系統事件 = 成功和失敗 (自動化)",
+    "level": "L1",
+    "full_text": "17.9.2 (L1) 確保 審計其他系統事件 = 成功和失敗 (自動化)"
+  },
+  "17.9.3": {
+    "code": "17.9.3",
+    "description": "確保 審計安全狀態更改 = 包括 成功 (自動化)",
+    "level": "L1",
+    "full_text": "17.9.3 (L1) 確保 審計安全狀態更改 = 包括 成功 (自動化)"
+  },
+  "17.9.4": {
+    "code": "17.9.4",
+    "description": "確保 審計安全系統擴展 = 包括 成功 (自動化)",
+    "level": "L1",
+    "full_text": "17.9.4 (L1) 確保 審計安全系統擴展 = 包括 成功 (自動化)"
+  },
+  "17.9.5": {
+    "code": "17.9.5",
+    "description": "確保 審計系統完整性 = 成功和失敗 (自動化)",
+    "level": "L1",
+    "full_text": "17.9.5 (L1) 確保 審計系統完整性 = 成功和失敗 (自動化)"
+  },
+  "18.1.1.1": {
+    "code": "18.1.1.1",
+    "description": "確保 防止啟用鎖屏攝像頭 = 已啟用 (自動化)",
+    "level": "L1",
+    "full_text": "18.1.1.1 (L1) 確保 防止啟用鎖屏攝像頭 = 已啟用 (自動化)"
+  },
+  "18.1.1.2": {
+    "code": "18.1.1.2",
+    "description": "確保 防止啟用鎖屏幻燈片放映 = 已啟用 (自動化)",
+    "level": "L1",
+    "full_text": "18.1.1.2 (L1) 確保 防止啟用鎖屏幻燈片放映 = 已啟用 (自動化)"
+  },
+  "18.1.2.2": {
+    "code": "18.1.2.2",
+    "description": "確保 允許用戶啟用在線語音識別服務 = 已禁用 (自動化)",
+    "level": "L1",
+    "full_text": "18.1.2.2 (L1) 確保 允許用戶啟用在線語音識別服務 = 已禁用 (自動化)"
+  },
+  "18.1.3": {
+    "code": "18.1.3",
+    "description": "允許在線提示 = 已禁用 (自動化)",
+    "level": "L2",
+    "full_text": "18.1.3 (L2) 允許在線提示 = 已禁用 (自動化)"
+  },
+  "18.4.1": {
+    "code": "18.4.1",
+    "description": "確保 對網絡登錄的本地帳戶應用 用戶帳戶控制 限制 = 已啟用 (僅限 MS, 自動化)",
+    "level": "L1",
+    "full_text": "18.4.1 (L1) 確保 對網絡登錄的本地帳戶應用 用戶帳戶控制 限制 = 已啟用 (僅限 MS, 自動化)"
+  },
+  "18.4.2": {
+    "code": "18.4.2",
+    "description": "確保 配置 SMB v1 客戶端驅動程序 = 已啟用: 禁用驅動程序 (自動化)",
+    "level": "L1",
+    "full_text": "18.4.2 (L1) 確保 配置 SMB v1 客戶端驅動程序 = 已啟用: 禁用驅動程序 (自動化)"
+  },
+  "18.4.3": {
+    "code": "18.4.3",
+    "description": "確保 配置 SMB v1 服務器 = 已禁用 (自動化)",
+    "level": "L1",
+    "full_text": "18.4.3 (L1) 確保 配置 SMB v1 服務器 = 已禁用 (自動化)"
+  },
+  "18.4.4": {
+    "code": "18.4.4",
+    "description": "確保 啟用證書填充 = 已啟用 (自動化)",
+    "level": "L1",
+    "full_text": "18.4.4 (L1) 確保 啟用證書填充 = 已啟用 (自動化)"
+  },
+  "18.4.5": {
+    "code": "18.4.5",
+    "description": "確保 啟用 SEHOP (結構化異常處理覆蓋保護) = 已啟用 (自動化)",
+    "level": "L1",
+    "full_text": "18.4.5 (L1) 確保 啟用 SEHOP (結構化異常處理覆蓋保護) = 已啟用 (自動化)"
+  },
+  "18.4.6": {
+    "code": "18.4.6",
+    "description": "確保 NetBT 節點類型配置 = 已啟用: P 節點 (自動化)",
+    "level": "L1",
+    "full_text": "18.4.6 (L1) 確保 NetBT 節點類型配置 = 已啟用: P 節點 (自動化)"
+  },
+  "18.4.7": {
+    "code": "18.4.7",
+    "description": "確保 WDigest 身份驗證 = 已禁用 (自動化)",
+    "level": "L1",
+    "full_text": "18.4.7 (L1) 確保 WDigest 身份驗證 = 已禁用 (自動化)"
+  },
+  "18.5.1": {
+    "code": "18.5.1",
+    "description": "確保 Microsoft 安全設置: (AutoAdminLogon) 啟用自動登錄 = 已禁用 (自動化)",
+    "level": "L1",
+    "full_text": "18.5.1 (L1) 確保 Microsoft 安全設置: (AutoAdminLogon) 啟用自動登錄 = 已禁用 (自動化)"
+  },
+  "18.5.2": {
+    "code": "18.5.2",
+    "description": "確保 'Microsoft 安全設置: (DisableIPSourceRouting IPv6) IP source routing protection level' 設為 '已啟用: Highest protection, source routing is completely disabled'",
+    "level": "L1",
+    "full_text": "18.5.2 (L1) 確保 'Microsoft 安全設置: (DisableIPSourceRouting IPv6) IP source routing protection level' 設為 '已啟用: Highest protection, source routing is completely disabled'"
+  },
+  "18.5.3": {
+    "code": "18.5.3",
+    "description": "確保 'Microsoft 安全設置: (DisableIPSourceRouting) IP source routing protection level' 設為 '已啟用: Highest protection, source routing is completely disabled'",
+    "level": "L1",
+    "full_text": "18.5.3 (L1) 確保 'Microsoft 安全設置: (DisableIPSourceRouting) IP source routing protection level' 設為 '已啟用: Highest protection, source routing is completely disabled'"
+  },
+  "18.5.4": {
+    "code": "18.5.4",
+    "description": "確保 'Microsoft 安全設置: (EnableICMPRedirect) 允許 ICMP 重定向 to override OSPF generated routes' 設為 '已禁用'",
+    "level": "L1",
+    "full_text": "18.5.4 (L1) 確保 'Microsoft 安全設置: (EnableICMPRedirect) 允許 ICMP 重定向 to override OSPF generated routes' 設為 '已禁用'"
+  },
+  "18.5.5": {
+    "code": "18.5.5",
+    "description": "確保 'Microsoft 安全設置: (KeepAliveTime) 發送保活數據包的頻率 in milli秒' 設為 '已啟用: 300,000 or 5 分鐘'",
+    "level": "L2",
+    "full_text": "18.5.5 (L2) 確保 'Microsoft 安全設置: (KeepAliveTime) 發送保活數據包的頻率 in milli秒' 設為 '已啟用: 300,000 or 5 分鐘'"
+  },
+  "18.5.6": {
+    "code": "18.5.6",
+    "description": "確保 'Microsoft 安全設置: (NoNameReleaseOnDemand) 允許 the computer to ignore NetBIOS name release requests except from WINS servers' 設為 '已啟用'",
+    "level": "L1",
+    "full_text": "18.5.6 (L1) 確保 'Microsoft 安全設置: (NoNameReleaseOnDemand) 允許 the computer to ignore NetBIOS name release requests except from WINS servers' 設為 '已啟用'"
+  },
+  "18.5.7": {
+    "code": "18.5.7",
+    "description": "確保 'Microsoft 安全設置: (PerformRouterDiscovery) 允許 IRDP to detect 及 configure Default Gateway addresses' 設為 '已禁用'",
+    "level": "L2",
+    "full_text": "18.5.7 (L2) 確保 'Microsoft 安全設置: (PerformRouterDiscovery) 允許 IRDP to detect 及 configure Default Gateway addresses' 設為 '已禁用'"
+  },
+  "18.5.8": {
+    "code": "18.5.8",
+    "description": "確保 'Microsoft 安全設置: (SafeDllSearchMode) 啟用安全 DLL 搜索模式' 設為 '已啟用'",
+    "level": "L1",
+    "full_text": "18.5.8 (L1) 確保 'Microsoft 安全設置: (SafeDllSearchMode) 啟用安全 DLL 搜索模式' 設為 '已啟用'"
+  },
+  "18.5.9": {
+    "code": "18.5.9",
+    "description": "確保 'Microsoft 安全設置: (ScreenSaverGracePeriod) The time in 秒 before the 畫面 saver grace period expires' 設為 '已啟用: 5 or fewer 秒'",
+    "level": "L1",
+    "full_text": "18.5.9 (L1) 確保 'Microsoft 安全設置: (ScreenSaverGracePeriod) The time in 秒 before the 畫面 saver grace period expires' 設為 '已啟用: 5 or fewer 秒'"
+  },
+  "18.5.10": {
+    "code": "18.5.10",
+    "description": "確保 ''Microsoft 安全設置: (TcpMaxDataRetransmissions IPv6) How many times unacknowledged data' 設為 'retransmitted' is set to '已啟用: 3''",
+    "level": "L2",
+    "full_text": "18.5.10 (L2) 確保 ''Microsoft 安全設置: (TcpMaxDataRetransmissions IPv6) How many times unacknowledged data' 設為 'retransmitted' is set to '已啟用: 3''"
+  },
+  "18.5.11": {
+    "code": "18.5.11",
+    "description": "確保 ''Microsoft 安全設置: (TcpMaxDataRetransmissions) How many times unacknowledged data' 設為 'retransmitted' is set to '已啟用: 3''",
+    "level": "L2",
+    "full_text": "18.5.11 (L2) 確保 ''Microsoft 安全設置: (TcpMaxDataRetransmissions) How many times unacknowledged data' 設為 'retransmitted' is set to '已啟用: 3''"
+  },
+  "18.5.12": {
+    "code": "18.5.12",
+    "description": "確保 'Microsoft 安全設置: (WarningLevel) Percentage threshold for the security event log at which the system will generate a warning' 設為 '已啟用: 90% or 以下'",
+    "level": "L1",
+    "full_text": "18.5.12 (L1) 確保 'Microsoft 安全設置: (WarningLevel) Percentage threshold for the security event log at which the system will generate a warning' 設為 '已啟用: 90% or 以下'"
+  },
+  "18.6.4.1": {
+    "code": "18.6.4.1",
+    "description": "確保 配置多播 DNS (mDNS) 協議 = 已禁用 (自動化)",
+    "level": "L1",
+    "full_text": "18.6.4.1 (L1) 確保 配置多播 DNS (mDNS) 協議 = 已禁用 (自動化)"
+  },
+  "18.6.4.2": {
+    "code": "18.6.4.2",
+    "description": "確保 配置 NetBIOS 設置 = 在公共網絡上禁用 NetBIOS 名稱解析 (自動化)",
+    "level": "L1",
+    "full_text": "18.6.4.2 (L1) 確保 配置 NetBIOS 設置 = 在公共網絡上禁用 NetBIOS 名稱解析 (自動化)"
+  },
+  "18.6.4.3": {
+    "code": "18.6.4.3",
+    "description": "確保 '關閉默認 IPv6 DNS 服務器' 設為 '已啟用'",
+    "level": "L2",
+    "full_text": "18.6.4.3 (L2) 確保 '關閉默認 IPv6 DNS 服務器' 設為 '已啟用'"
+  },
+  "18.6.4.4": {
+    "code": "18.6.4.4",
+    "description": "確保 關閉多播名稱解析 = 已啟用 (自動化)",
+    "level": "L1",
+    "full_text": "18.6.4.4 (L1) 確保 關閉多播名稱解析 = 已啟用 (自動化)"
+  },
+  "18.6.5.1": {
+    "code": "18.6.5.1",
+    "description": "啟用字體提供程序 = 已禁用 (自動化)",
+    "level": "L2",
+    "full_text": "18.6.5.1 (L2) 啟用字體提供程序 = 已禁用 (自動化)"
+  },
+  "18.6.7.1": {
+    "code": "18.6.7.1",
+    "description": "確保 強制最低 SMB 版本 = 已啟用: 3.1.1 (自動化)",
+    "level": "L1",
+    "full_text": "18.6.7.1 (L1) 確保 強制最低 SMB 版本 = 已啟用: 3.1.1 (自動化)"
+  },
+  "18.6.8.1": {
+    "code": "18.6.8.1",
+    "description": "確保 啟用不安全的訪客登錄 = 已禁用 (自動化)",
+    "level": "L1",
+    "full_text": "18.6.8.1 (L1) 確保 啟用不安全的訪客登錄 = 已禁用 (自動化)"
+  },
+  "18.6.8.2": {
+    "code": "18.6.8.2",
+    "description": "確保 需要加密 = 已啟用 (自動化)",
+    "level": "L1",
+    "full_text": "18.6.8.2 (L1) 確保 需要加密 = 已啟用 (自動化)"
+  },
+  "18.6.9.1": {
+    "code": "18.6.9.1",
+    "description": "開啟映射器 I/O (LLTDIO) 驅動程序 = 已禁用 (自動化)",
+    "level": "L2",
+    "full_text": "18.6.9.1 (L2) 開啟映射器 I/O (LLTDIO) 驅動程序 = 已禁用 (自動化)"
+  },
+  "18.6.9.2": {
+    "code": "18.6.9.2",
+    "description": "確保 '開啟 Responder (RSPNDR) 驅動程序' 設為 '已禁用'",
+    "level": "L2",
+    "full_text": "18.6.9.2 (L2) 確保 '開啟 Responder (RSPNDR) 驅動程序' 設為 '已禁用'"
+  },
+  "18.6.10.2": {
+    "code": "18.6.10.2",
+    "description": "關閉 Microsoft 點對點網絡服務 = 已啟用 (自動化)",
+    "level": "L2",
+    "full_text": "18.6.10.2 (L2) 關閉 Microsoft 點對點網絡服務 = 已啟用 (自動化)"
+  },
+  "18.6.11.2": {
+    "code": "18.6.11.2",
+    "description": "確保 '禁止在您的 DNS 域網路安裝和配置網路橋接' 設定為 '已啟用' (自動化)",
+    "level": "L1",
+    "full_text": "18.6.11.2 (L1) 確保 '禁止在您的 DNS 域網路安裝和配置網路橋接' 設定為 '已啟用' (自動化)"
+  },
+  "18.6.11.3": {
+    "code": "18.6.11.3",
+    "description": "確保 '禁止在您的 DNS 域網路使用網際網路連線共用' 設定為 '已啟用' (自動化)",
+    "level": "L1",
+    "full_text": "18.6.11.3 (L1) 確保 '禁止在您的 DNS 域網路使用網際網路連線共用' 設定為 '已啟用' (自動化)"
+  },
+  "18.6.11.4": {
+    "code": "18.6.11.4",
+    "description": "確保 '要求域使用者在設定網路位置時提升權限' 設定為 '已啟用' (自動化)",
+    "level": "L1",
+    "full_text": "18.6.11.4 (L1) 確保 '要求域使用者在設定網路位置時提升權限' 設定為 '已啟用' (自動化)"
+  },
+  "18.6.14.1": {
+    "code": "18.6.14.1",
+    "description": "確保 'Hardened UNC Paths' 設為 '已啟用, with \"要求 Mutual Authentication\", \"要求 Integrity\", 及 “要求 Privacy” set for all NETLOGON 及 SYSVOL shares'",
+    "level": "L1",
+    "full_text": "18.6.14.1 (L1) 確保 'Hardened UNC Paths' 設為 '已啟用, with \"要求 Mutual Authentication\", \"要求 Integrity\", 及 “要求 Privacy” set for all NETLOGON 及 SYSVOL shares'"
+  },
+  "18.6.20.1": {
+    "code": "18.6.20.1",
+    "description": "確保 'Configuration of wire以下 settings using Windows Connect Now' 設為 '已禁用'",
+    "level": "L2",
+    "full_text": "18.6.20.1 (L2) 確保 'Configuration of wire以下 settings using Windows Connect Now' 設為 '已禁用'"
+  },
+  "18.6.20.2": {
+    "code": "18.6.20.2",
+    "description": "確保 'Prohibit access of the Windows Connect Now wizards' 設為 '已啟用'",
+    "level": "L2",
+    "full_text": "18.6.20.2 (L2) 確保 'Prohibit access of the Windows Connect Now wizards' 設為 '已啟用'"
+  },
+  "18.6.21.1": {
+    "code": "18.6.21.1",
+    "description": "確保 'Minimize the number of simultaneous 連線s to the Internet or a Windows Domain' 設為 '已啟用: 3 = 防止 Wi-Fi when on Ethernet'",
+    "level": "L1",
+    "full_text": "18.6.21.1 (L1) 確保 'Minimize the number of simultaneous 連線s to the Internet or a Windows Domain' 設為 '已啟用: 3 = 防止 Wi-Fi when on Ethernet'"
+  },
+  "18.6.21.2": {
+    "code": "18.6.21.2",
+    "description": "確保 'Prohibit 連線 to non-domain networks when connected to domain authenticated network' 設為 '已啟用'",
+    "level": "L2",
+    "full_text": "18.6.21.2 (L2) 確保 'Prohibit 連線 to non-domain networks when connected to domain authenticated network' 設為 '已啟用'"
+  },
+  "18.7.1": {
+    "code": "18.7.1",
+    "description": "確保 '允許 Print Spooler to accept client 連線s' 設為 '已禁用'",
+    "level": "L1",
+    "full_text": "18.7.1 (L1) 確保 '允許 Print Spooler to accept client 連線s' 設為 '已禁用'"
+  },
+  "18.7.2": {
+    "code": "18.7.2",
+    "description": "確保 '設定 Redirection Guard' 設為 '已啟用: Redirection Guard 已啟用'",
+    "level": "L1",
+    "full_text": "18.7.2 (L1) 確保 '設定 Redirection Guard' 設為 '已啟用: Redirection Guard 已啟用'"
+  },
+  "18.7.3": {
+    "code": "18.7.3",
+    "description": "確保 '設定 RPC 連線 settings: 通訊協定 to use for outgoing RPC 連線s' 設為 '已啟用: RPC over TCP'",
+    "level": "L1",
+    "full_text": "18.7.3 (L1) 確保 '設定 RPC 連線 settings: 通訊協定 to use for outgoing RPC 連線s' 設為 '已啟用: RPC over TCP'"
+  },
+  "18.7.4": {
+    "code": "18.7.4",
+    "description": "確保 '設定 RPC 連線 settings: 使用 authentication for outgoing RPC 連線s' 設為 '已啟用: Default'",
+    "level": "L1",
+    "full_text": "18.7.4 (L1) 確保 '設定 RPC 連線 settings: 使用 authentication for outgoing RPC 連線s' 設為 '已啟用: Default'"
+  },
+  "18.7.5": {
+    "code": "18.7.5",
+    "description": "確保 '設定 RPC listener settings: 通訊協定s to allow for incoming RPC 連線s' 設為 '已啟用: RPC over TCP'",
+    "level": "L1",
+    "full_text": "18.7.5 (L1) 確保 '設定 RPC listener settings: 通訊協定s to allow for incoming RPC 連線s' 設為 '已啟用: RPC over TCP'"
+  },
+  "18.7.6": {
+    "code": "18.7.6",
+    "description": "確保 '設定 RPC listener settings: Authentication 通訊協定 to use for incoming RPC 連線s:' 設為 ''已啟用: Negotiate' 或更高'",
+    "level": "L1",
+    "full_text": "18.7.6 (L1) 確保 '設定 RPC listener settings: Authentication 通訊協定 to use for incoming RPC 連線s:' 設為 ''已啟用: Negotiate' 或更高'"
+  },
+  "18.7.7": {
+    "code": "18.7.7",
+    "description": "確保 '設定 RPC over TCP 連接埠' 設為 '已啟用: 0'",
+    "level": "L1",
+    "full_text": "18.7.7 (L1) 確保 '設定 RPC over TCP 連接埠' 設為 '已啟用: 0'"
+  },
+  "18.7.8": {
+    "code": "18.7.8",
+    "description": "確保 '設定 RPC packet level privacy setting for incoming 連線s' 設為 '已啟用'",
+    "level": "L1",
+    "full_text": "18.7.8 (L1) 確保 '設定 RPC packet level privacy setting for incoming 連線s' 設為 '已啟用'"
+  },
+  "18.7.9": {
+    "code": "18.7.9",
+    "description": "確保 'Limits print 磁碟機r 安裝ation to 管理員' 設為 '已啟用'",
+    "level": "L1",
+    "full_text": "18.7.9 (L1) 確保 'Limits print 磁碟機r 安裝ation to 管理員' 設為 '已啟用'"
+  },
+  "18.7.10": {
+    "code": "18.7.10",
+    "description": "確保 '管理 processing of Queue-specific files' 設為 '已啟用: 限制 Queue-specific files to Color profiles'",
+    "level": "L1",
+    "full_text": "18.7.10 (L1) 確保 '管理 processing of Queue-specific files' 設為 '已啟用: 限制 Queue-specific files to Color profiles'"
+  },
+  "18.7.11": {
+    "code": "18.7.11",
+    "description": "確保 'Point 及 Print Restrictions: When 安裝ing 磁碟機rs for a new 連線' 設為 '已啟用: Show warning 及 elevation prompt'",
+    "level": "L1",
+    "full_text": "18.7.11 (L1) 確保 'Point 及 Print Restrictions: When 安裝ing 磁碟機rs for a new 連線' 設為 '已啟用: Show warning 及 elevation prompt'"
+  },
+  "18.7.12": {
+    "code": "18.7.12",
+    "description": "確保 'Point 及 Print Restrictions: When updating 磁碟機rs for an existing 連線' 設為 '已啟用: Show warning 及 elevation prompt'",
+    "level": "L1",
+    "full_text": "18.7.12 (L1) 確保 'Point 及 Print Restrictions: When updating 磁碟機rs for an existing 連線' 設為 '已啟用: Show warning 及 elevation prompt'"
+  },
+  "18.8.1.1": {
+    "code": "18.8.1.1",
+    "description": "確保 '關閉 通知 network usage' 設為 '已啟用'",
+    "level": "L2",
+    "full_text": "18.8.1.1 (L2) 確保 '關閉 通知 network usage' 設為 '已啟用'"
+  },
+  "18.9.3.1": {
+    "code": "18.9.3.1",
+    "description": "確保 'Include command line in process creation events' 設為 '已啟用'",
+    "level": "L1",
+    "full_text": "18.9.3.1 (L1) 確保 'Include command line in process creation events' 設為 '已啟用'"
+  },
+  "18.9.4.1": {
+    "code": "18.9.4.1",
+    "description": "確保 'Encryption Oracle Remediation' 設為 '已啟用: Force Updated Clients'",
+    "level": "L1",
+    "full_text": "18.9.4.1 (L1) 確保 'Encryption Oracle Remediation' 設為 '已啟用: Force Updated Clients'"
+  },
+  "18.9.4.2": {
+    "code": "18.9.4.2",
+    "description": "確保 'Remote host allows delegation of non-ex連接埠able credentials' 設為 '已啟用'",
+    "level": "L1",
+    "full_text": "18.9.4.2 (L1) 確保 'Remote host allows delegation of non-ex連接埠able credentials' 設為 '已啟用'"
+  },
+  "18.9.7.2": {
+    "code": "18.9.7.2",
+    "description": "確保 '防止 device metadata retrieval from the Internet' 設為 '已啟用'",
+    "level": "L1",
+    "full_text": "18.9.7.2 (L1) 確保 '防止 device metadata retrieval from the Internet' 設為 '已啟用'"
+  },
+  "18.9.13.1": {
+    "code": "18.9.13.1",
+    "description": "確保 'Boot-Start Driver Initialization Policy' 設為 '已啟用: Good, unknown 及 bad but critical'",
+    "level": "L1",
+    "full_text": "18.9.13.1 (L1) 確保 'Boot-Start Driver Initialization Policy' 設為 '已啟用: Good, unknown 及 bad but critical'"
+  },
+  "18.9.19.2": {
+    "code": "18.9.19.2",
+    "description": "確保 '設定 registry policy processing: Do not apply during periodic background processing' 設為 '已啟用: FALSE'",
+    "level": "L1",
+    "full_text": "18.9.19.2 (L1) 確保 '設定 registry policy processing: Do not apply during periodic background processing' 設為 '已啟用: FALSE'"
+  },
+  "18.9.19.3": {
+    "code": "18.9.19.3",
+    "description": "確保 '設定 registry policy processing: Process even if the Group Policy objects have not changed' 設為 '已啟用: TRUE'",
+    "level": "L1",
+    "full_text": "18.9.19.3 (L1) 確保 '設定 registry policy processing: Process even if the Group Policy objects have not changed' 設為 '已啟用: TRUE'"
+  },
+  "18.9.19.4": {
+    "code": "18.9.19.4",
+    "description": "確保 '設定 security policy processing: Do not apply during periodic background processing' 設為 '已啟用: FALSE'",
+    "level": "L1",
+    "full_text": "18.9.19.4 (L1) 確保 '設定 security policy processing: Do not apply during periodic background processing' 設為 '已啟用: FALSE'"
+  },
+  "18.9.19.5": {
+    "code": "18.9.19.5",
+    "description": "確保 '設定 security policy processing: Process even if the Group Policy objects have not changed' 設為 '已啟用: TRUE'",
+    "level": "L1",
+    "full_text": "18.9.19.5 (L1) 確保 '設定 security policy processing: Process even if the Group Policy objects have not changed' 設為 '已啟用: TRUE'"
+  },
+  "18.9.19.6": {
+    "code": "18.9.19.6",
+    "description": "確保 'Continue experiences on this device' 設為 '已禁用'",
+    "level": "L1",
+    "full_text": "18.9.19.6 (L1) 確保 'Continue experiences on this device' 設為 '已禁用'"
+  },
+  "18.9.19.7": {
+    "code": "18.9.19.7",
+    "description": "確保 '關閉 background refresh of Group Policy' 設為 '已禁用'",
+    "level": "L1",
+    "full_text": "18.9.19.7 (L1) 確保 '關閉 background refresh of Group Policy' 設為 '已禁用'"
+  },
+  "18.9.20.1.1": {
+    "code": "18.9.20.1.1",
+    "description": "確保 '關閉 downloading of print 磁碟機rs over HTTP' 設為 '已啟用'",
+    "level": "L1",
+    "full_text": "18.9.20.1.1 (L1) 確保 '關閉 downloading of print 磁碟機rs over HTTP' 設為 '已啟用'"
+  },
+  "18.9.20.1.2": {
+    "code": "18.9.20.1.2",
+    "description": "確保 '關閉 handwriting personalization data sharing' 設為 '已啟用'",
+    "level": "L2",
+    "full_text": "18.9.20.1.2 (L2) 確保 '關閉 handwriting personalization data sharing' 設為 '已啟用'"
+  },
+  "18.9.20.1.3": {
+    "code": "18.9.20.1.3",
+    "description": "確保 '關閉 handwriting recognition error re連接埠ing' 設為 '已啟用'",
+    "level": "L2",
+    "full_text": "18.9.20.1.3 (L2) 確保 '關閉 handwriting recognition error re連接埠ing' 設為 '已啟用'"
+  },
+  "18.9.20.1.4": {
+    "code": "18.9.20.1.4",
+    "description": "確保 ''關閉 Internet Connection Wizard if URL 連線' 設為 'referring to Microsoft.com' is set to '已啟用''",
+    "level": "L2",
+    "full_text": "18.9.20.1.4 (L2) 確保 ''關閉 Internet Connection Wizard if URL 連線' 設為 'referring to Microsoft.com' is set to '已啟用''"
+  },
+  "18.9.20.1.5": {
+    "code": "18.9.20.1.5",
+    "description": "確保 '關閉 Internet download for Web publishing 及 online ordering wizards' 設為 '已啟用'",
+    "level": "L1",
+    "full_text": "18.9.20.1.5 (L1) 確保 '關閉 Internet download for Web publishing 及 online ordering wizards' 設為 '已啟用'"
+  },
+  "18.9.20.1.6": {
+    "code": "18.9.20.1.6",
+    "description": "確保 '關閉 printing over HTTP' 設為 '已啟用'",
+    "level": "L2",
+    "full_text": "18.9.20.1.6 (L2) 確保 '關閉 printing over HTTP' 設為 '已啟用'"
+  },
+  "18.9.20.1.7": {
+    "code": "18.9.20.1.7",
+    "description": "確保 ''關閉 Registration if URL 連線' 設為 'referring to Microsoft.com' is set to '已啟用''",
+    "level": "L2",
+    "full_text": "18.9.20.1.7 (L2) 確保 ''關閉 Registration if URL 連線' 設為 'referring to Microsoft.com' is set to '已啟用''"
+  },
+  "18.9.20.1.8": {
+    "code": "18.9.20.1.8",
+    "description": "確保 '關閉 Search Companion 內容 file updates' 設為 '已啟用'",
+    "level": "L2",
+    "full_text": "18.9.20.1.8 (L2) 確保 '關閉 Search Companion 內容 file updates' 設為 '已啟用'"
+  },
+  "18.9.20.1.9": {
+    "code": "18.9.20.1.9",
+    "description": "確保 '關閉 the \"Order Prints\" picture task' 設為 '已啟用'",
+    "level": "L2",
+    "full_text": "18.9.20.1.9 (L2) 確保 '關閉 the \"Order Prints\" picture task' 設為 '已啟用'"
+  },
+  "18.9.20.1.10": {
+    "code": "18.9.20.1.10",
+    "description": "確保 '關閉 the \"Publish to Web\" task for files 及 資料夾' 設為 '已啟用'",
+    "level": "L2",
+    "full_text": "18.9.20.1.10 (L2) 確保 '關閉 the \"Publish to Web\" task for files 及 資料夾' 設為 '已啟用'"
+  },
+  "18.9.20.1.11": {
+    "code": "18.9.20.1.11",
+    "description": "確保 '關閉 the Windows Messenger Customer Experience Improvement Program' 設為 '已啟用'",
+    "level": "L2",
+    "full_text": "18.9.20.1.11 (L2) 確保 '關閉 the Windows Messenger Customer Experience Improvement Program' 設為 '已啟用'"
+  },
+  "18.9.20.1.12": {
+    "code": "18.9.20.1.12",
+    "description": "確保 '關閉 Windows Customer Experience Improvement Program' 設為 '已啟用'",
+    "level": "L2",
+    "full_text": "18.9.20.1.12 (L2) 確保 '關閉 Windows Customer Experience Improvement Program' 設為 '已啟用'"
+  },
+  "18.9.20.1.13": {
+    "code": "18.9.20.1.13",
+    "description": "確保 '關閉 Windows Error Re連接埠ing' 設為 '已啟用'",
+    "level": "L2",
+    "full_text": "18.9.20.1.13 (L2) 確保 '關閉 Windows Error Re連接埠ing' 設為 '已啟用'"
+  },
+  "18.9.23.1": {
+    "code": "18.9.23.1",
+    "description": "確保 'Sup連接埠 device authentication using certificate' 設為 '已啟用: Automatic'",
+    "level": "L2",
+    "full_text": "18.9.23.1 (L2) 確保 'Sup連接埠 device authentication using certificate' 設為 '已啟用: Automatic'"
+  },
+  "18.9.24.1": {
+    "code": "18.9.24.1",
+    "description": "確保 'Enumeration policy for external devices incompatible with Kernel DMA Protection' 設為 '已啟用: 封鎖 All'",
+    "level": "L1",
+    "full_text": "18.9.24.1 (L1) 確保 'Enumeration policy for external devices incompatible with Kernel DMA Protection' 設為 '已啟用: 封鎖 All'"
+  },
+  "18.9.25.1": {
+    "code": "18.9.25.1",
+    "description": "確保 '設定 密碼 backup directory' 設為 '已啟用: Active Directory' or '已啟用: Azure Active Directory'",
+    "level": "L1",
+    "full_text": "18.9.25.1 (L1) 確保 '設定 密碼 backup directory' 設為 '已啟用: Active Directory' or '已啟用: Azure Active Directory'"
+  },
+  "18.9.25.2": {
+    "code": "18.9.25.2",
+    "description": "確保 'Do not allow 密碼 expiration time longer than required by policy' 設為 '已啟用'",
+    "level": "L1",
+    "full_text": "18.9.25.2 (L1) 確保 'Do not allow 密碼 expiration time longer than required by policy' 設為 '已啟用'"
+  },
+  "18.9.25.3": {
+    "code": "18.9.25.3",
+    "description": "確保 '啟用 密碼 encryption' 設為 '已啟用'",
+    "level": "L1",
+    "full_text": "18.9.25.3 (L1) 確保 '啟用 密碼 encryption' 設為 '已啟用'"
+  },
+  "18.9.25.4": {
+    "code": "18.9.25.4",
+    "description": "確保 'Password Settings: Password Complexity' 設為 '已啟用: Large letters + small letters + numbers + special 個字符'",
+    "level": "L1",
+    "full_text": "18.9.25.4 (L1) 確保 'Password Settings: Password Complexity' 設為 '已啟用: Large letters + small letters + numbers + special 個字符'"
+  },
+  "18.9.25.5": {
+    "code": "18.9.25.5",
+    "description": "確保 'Password Settings: Password Length' 設為 '已啟用: 15 或以上'",
+    "level": "L1",
+    "full_text": "18.9.25.5 (L1) 確保 'Password Settings: Password Length' 設為 '已啟用: 15 或以上'"
+  },
+  "18.9.25.6": {
+    "code": "18.9.25.6",
+    "description": "確保 'Password Settings: Password Age (Days)' 設為 '已啟用: 30 or fewer'",
+    "level": "L1",
+    "full_text": "18.9.25.6 (L1) 確保 'Password Settings: Password Age (Days)' 設為 '已啟用: 30 or fewer'"
+  },
+  "18.9.25.7": {
+    "code": "18.9.25.7",
+    "description": "確保「驗證後動作：寬限期（小時）」設為「已啟用：8 小時或以下，但不可為 0」",
+    "level": "L1",
+    "full_text": "18.9.25.7 (L1) 確保「驗證後動作：寬限期（小時）」設為「已啟用：8 小時或以下，但不可為 0」"
+  },
+  "18.9.25.8": {
+    "code": "18.9.25.8",
+    "description": "確保「驗證後動作：動作」設為「已啟用：重設密碼並將受管理帳戶登出」或更高等級",
+    "level": "L1",
+    "full_text": "18.9.25.8 (L1) 確保「驗證後動作：動作」設為「已啟用：重設密碼並將受管理帳戶登出」或更高等級"
+  },
+  "18.9.26.1": {
+    "code": "18.9.26.1",
+    "description": "確保 ''允許 Custom SSPs 及 APs to' 設為 'loaded into LSASS' is set to '已禁用''",
+    "level": "L1",
+    "full_text": "18.9.26.1 (L1) 確保 ''允許 Custom SSPs 及 APs to' 設為 'loaded into LSASS' is set to '已禁用''"
+  },
+  "18.9.27.1": {
+    "code": "18.9.27.1",
+    "description": "確保 'Disallow copying of 使用者 input methods to the system 帳戶 for sign-in' 設為 '已啟用'",
+    "level": "L2",
+    "full_text": "18.9.27.1 (L2) 確保 'Disallow copying of 使用者 input methods to the system 帳戶 for sign-in' 設為 '已啟用'"
+  },
+  "18.9.28.1": {
+    "code": "18.9.28.1",
+    "description": "確保 '封鎖 使用者 from showing 帳戶 details on sign-in' 設為 '已啟用'",
+    "level": "L1",
+    "full_text": "18.9.28.1 (L1) 確保 '封鎖 使用者 from showing 帳戶 details on sign-in' 設為 '已啟用'"
+  },
+  "18.9.28.2": {
+    "code": "18.9.28.2",
+    "description": "確保 'Do not display network selection UI' 設為 '已啟用'",
+    "level": "L1",
+    "full_text": "18.9.28.2 (L1) 確保 'Do not display network selection UI' 設為 '已啟用'"
+  },
+  "18.9.28.3": {
+    "code": "18.9.28.3",
+    "description": "確保 'Do not enumerate connected 使用者s on domain-joined computers' 設為 '已啟用'",
+    "level": "L1",
+    "full_text": "18.9.28.3 (L1) 確保 'Do not enumerate connected 使用者s on domain-joined computers' 設為 '已啟用'"
+  },
+  "18.9.28.4": {
+    "code": "18.9.28.4",
+    "description": "確保 '列舉 local 使用者s on domain-joined computers' 設為 '已禁用'",
+    "level": "L1",
+    "full_text": "18.9.28.4 (L1) 確保 '列舉 local 使用者s on domain-joined computers' 設為 '已禁用'"
+  },
+  "18.9.28.5": {
+    "code": "18.9.28.5",
+    "description": "確保 '關閉 app 通知 on the lock 畫面' 設為 '已啟用'",
+    "level": "L1",
+    "full_text": "18.9.28.5 (L1) 確保 '關閉 app 通知 on the lock 畫面' 設為 '已啟用'"
+  },
+  "18.9.28.6": {
+    "code": "18.9.28.6",
+    "description": "確保 '關閉 picture 密碼 sign-in' 設為 '已啟用'",
+    "level": "L1",
+    "full_text": "18.9.28.6 (L1) 確保 '關閉 picture 密碼 sign-in' 設為 '已啟用'"
+  },
+  "18.9.28.7": {
+    "code": "18.9.28.7",
+    "description": "確保 '開啟 convenience PIN sign-in' 設為 '已禁用'",
+    "level": "L1",
+    "full_text": "18.9.28.7 (L1) 確保 '開啟 convenience PIN sign-in' 設為 '已禁用'"
+  },
+  "18.9.31.1": {
+    "code": "18.9.31.1",
+    "description": "確保 '允許 Clipboard synchronization across devices' 設為 '已禁用'",
+    "level": "L2",
+    "full_text": "18.9.31.1 (L2) 確保 '允許 Clipboard synchronization across devices' 設為 '已禁用'"
+  },
+  "18.9.31.2": {
+    "code": "18.9.31.2",
+    "description": "確保 '允許 upload of User Activities' 設為 '已禁用'",
+    "level": "L2",
+    "full_text": "18.9.31.2 (L2) 確保 '允許 upload of User Activities' 設為 '已禁用'"
+  },
+  "18.9.33.6.1": {
+    "code": "18.9.33.6.1",
+    "description": "確保 '允許 network connectivity during connected-standby (on battery)' 設為 '已禁用'",
+    "level": "L2",
+    "full_text": "18.9.33.6.1 (L2) 確保 '允許 network connectivity during connected-standby (on battery)' 設為 '已禁用'"
+  },
+  "18.9.33.6.2": {
+    "code": "18.9.33.6.2",
+    "description": "確保 '允許 network connectivity during connected-standby (plugged in)' 設為 '已禁用'",
+    "level": "L2",
+    "full_text": "18.9.33.6.2 (L2) 確保 '允許 network connectivity during connected-standby (plugged in)' 設為 '已禁用'"
+  },
+  "18.9.33.6.3": {
+    "code": "18.9.33.6.3",
+    "description": "確保 '要求 a 密碼 when a computer wakes (on battery)' 設為 '已啟用'",
+    "level": "L1",
+    "full_text": "18.9.33.6.3 (L1) 確保 '要求 a 密碼 when a computer wakes (on battery)' 設為 '已啟用'"
+  },
+  "18.9.33.6.4": {
+    "code": "18.9.33.6.4",
+    "description": "確保 '要求 a 密碼 when a computer wakes (plugged in)' 設為 '已啟用'",
+    "level": "L1",
+    "full_text": "18.9.33.6.4 (L1) 確保 '要求 a 密碼 when a computer wakes (plugged in)' 設為 '已啟用'"
+  },
+  "18.9.35.1": {
+    "code": "18.9.35.1",
+    "description": "確保 '設定 Offer Remote Assistance' 設為 '已禁用'",
+    "level": "L1",
+    "full_text": "18.9.35.1 (L1) 確保 '設定 Offer Remote Assistance' 設為 '已禁用'"
+  },
+  "18.9.35.2": {
+    "code": "18.9.35.2",
+    "description": "確保 '設定 Solicited Remote Assistance' 設為 '已禁用'",
+    "level": "L1",
+    "full_text": "18.9.35.2 (L1) 確保 '設定 Solicited Remote Assistance' 設為 '已禁用'"
+  },
+  "18.9.36.1": {
+    "code": "18.9.36.1",
+    "description": "確保 '啟用 RPC Endpoint Mapper Client Authentication' 設為 '已啟用'",
+    "level": "L1",
+    "full_text": "18.9.36.1 (L1) 確保 '啟用 RPC Endpoint Mapper Client Authentication' 設為 '已啟用'"
+  },
+  "18.9.36.2": {
+    "code": "18.9.36.2",
+    "description": "確保 'Restrict Unauthenticated RPC clients' 設為 '已啟用: Authenticated'",
+    "level": "L2",
+    "full_text": "18.9.36.2 (L2) 確保 'Restrict Unauthenticated RPC clients' 設為 '已啟用: Authenticated'"
+  },
+  "18.9.39.1": {
+    "code": "18.9.39.1",
+    "description": "確保 '設定 validation of ROCA-vulnerable WHfB keys during authentication' 設為 ''已啟用: 稽核' 或更高'",
+    "level": "L1",
+    "full_text": "18.9.39.1 (L1) 確保 '設定 validation of ROCA-vulnerable WHfB keys during authentication' 設為 ''已啟用: 稽核' 或更高'"
+  },
+  "18.9.47.5.1": {
+    "code": "18.9.47.5.1",
+    "description": "確保 'Microsoft Sup連接埠 Diagnostic Tool: 開啟 MSDT interactive communication with sup連接埠 provider' 設為 '已禁用'",
+    "level": "L2",
+    "full_text": "18.9.47.5.1 (L2) 確保 'Microsoft Sup連接埠 Diagnostic Tool: 開啟 MSDT interactive communication with sup連接埠 provider' 設為 '已禁用'"
+  },
+  "18.9.47.11.1": {
+    "code": "18.9.47.11.1",
+    "description": "確保 'Enable/停用 PerfTrack' 設為 '已禁用'",
+    "level": "L2",
+    "full_text": "18.9.47.11.1 (L2) 確保 'Enable/停用 PerfTrack' 設為 '已禁用'"
+  },
+  "18.9.49.1": {
+    "code": "18.9.49.1",
+    "description": "確保 '關閉 the advertising ID' 設為 '已啟用'",
+    "level": "L2",
+    "full_text": "18.9.49.1 (L2) 確保 '關閉 the advertising ID' 設為 '已啟用'"
+  },
+  "18.9.51.1.1": {
+    "code": "18.9.51.1.1",
+    "description": "確保 '啟用 Windows NTP Client' 設為 '已啟用'",
+    "level": "L1",
+    "full_text": "18.9.51.1.1 (L1) 確保 '啟用 Windows NTP Client' 設為 '已啟用'"
+  },
+  "18.9.51.1.2": {
+    "code": "18.9.51.1.2",
+    "description": "確保 '啟用 Windows NTP Server' 設為 '已禁用'",
+    "level": "L1",
+    "full_text": "18.9.51.1.2 (L1) 確保 '啟用 Windows NTP Server' 設為 '已禁用'"
+  },
+  "18.10.4.1": {
+    "code": "18.10.4.1",
+    "description": "確保 '允許 a Windows app to share 應用程式 data between 使用者s' 設為 '已禁用'",
+    "level": "L2",
+    "full_text": "18.10.4.1 (L2) 確保 '允許 a Windows app to share 應用程式 data between 使用者s' 設為 '已禁用'"
+  },
+  "18.10.6.1": {
+    "code": "18.10.6.1",
+    "description": "確保 ''允許 Microsoft 帳戶 to' 設為 'optional' is set to '已啟用''",
+    "level": "L1",
+    "full_text": "18.10.6.1 (L1) 確保 ''允許 Microsoft 帳戶 to' 設為 'optional' is set to '已啟用''"
+  },
+  "18.10.8.1": {
+    "code": "18.10.8.1",
+    "description": "確保 'Disallow Autoplay for non-volume devices' 設為 '已啟用'",
+    "level": "L1",
+    "full_text": "18.10.8.1 (L1) 確保 'Disallow Autoplay for non-volume devices' 設為 '已啟用'"
+  },
+  "18.10.8.2": {
+    "code": "18.10.8.2",
+    "description": "確保 '設定 the default behavior for AutoRun' 設為 '已啟用: Do not execute any autorun commands'",
+    "level": "L1",
+    "full_text": "18.10.8.2 (L1) 確保 '設定 the default behavior for AutoRun' 設為 '已啟用: Do not execute any autorun commands'"
+  },
+  "18.10.8.3": {
+    "code": "18.10.8.3",
+    "description": "確保 '關閉 Autoplay' 設為 '已啟用: All 磁碟機s'",
+    "level": "L1",
+    "full_text": "18.10.8.3 (L1) 確保 '關閉 Autoplay' 設為 '已啟用: All 磁碟機s'"
+  },
+  "18.10.9.1.1": {
+    "code": "18.10.9.1.1",
+    "description": "確保 '設定 enhanced anti-spoofing' 設為 '已啟用'",
+    "level": "L1",
+    "full_text": "18.10.9.1.1 (L1) 確保 '設定 enhanced anti-spoofing' 設為 '已啟用'"
+  },
+  "18.10.11.1": {
+    "code": "18.10.11.1",
+    "description": "確保 '允許 使用 相機' 設為 '已禁用'",
+    "level": "L2",
+    "full_text": "18.10.11.1 (L2) 確保 '允許 使用 相機' 設為 '已禁用'"
+  },
+  "18.10.13.1": {
+    "code": "18.10.13.1",
+    "description": "確保 '關閉 雲端 消費者 帳戶 狀態 內容' 設為 '已啟用'",
+    "level": "L1",
+    "full_text": "18.10.13.1 (L1) 確保 '關閉 雲端 消費者 帳戶 狀態 內容' 設為 '已啟用'"
+  },
+  "18.10.13.2": {
+    "code": "18.10.13.2",
+    "description": "確保 '關閉 雲端 optimized 內容' 設為 '已啟用'",
+    "level": "L2",
+    "full_text": "18.10.13.2 (L2) 確保 '關閉 雲端 optimized 內容' 設為 '已啟用'"
+  },
+  "18.10.13.3": {
+    "code": "18.10.13.3",
+    "description": "確保 '關閉 Microsoft 消費者 experiences' 設為 '已啟用'",
+    "level": "L1",
+    "full_text": "18.10.13.3 (L1) 確保 '關閉 Microsoft 消費者 experiences' 設為 '已啟用'"
+  },
+  "18.10.14.1": {
+    "code": "18.10.14.1",
+    "description": "確保 '要求 pin for pairing' 設為 '已啟用: 首次' OR '已啟用: 始終'",
+    "level": "L1",
+    "full_text": "18.10.14.1 (L1) 確保 '要求 pin for pairing' 設為 '已啟用: 首次' OR '已啟用: 始終'"
+  },
+  "18.10.15.1": {
+    "code": "18.10.15.1",
+    "description": "確保 'Do not display the 密碼 顯示 按鈕' 設為 '已啟用'",
+    "level": "L1",
+    "full_text": "18.10.15.1 (L1) 確保 'Do not display the 密碼 顯示 按鈕' 設為 '已啟用'"
+  },
+  "18.10.15.2": {
+    "code": "18.10.15.2",
+    "description": "確保 '列舉 系統管理員帳戶 on elevation' 設為 '已禁用'",
+    "level": "L1",
+    "full_text": "18.10.15.2 (L1) 確保 '列舉 系統管理員帳戶 on elevation' 設為 '已禁用'"
+  },
+  "18.10.16.1": {
+    "code": "18.10.16.1",
+    "description": "確保 '允許 Diagnostic Data' 設為 '已啟用: 關閉診斷資料（不建議）' or '已啟用: 傳送必要的診斷資料'",
+    "level": "L1",
+    "full_text": "18.10.16.1 (L1) 確保 '允許 Diagnostic Data' 設為 '已啟用: 關閉診斷資料（不建議）' or '已啟用: 傳送必要的診斷資料'"
+  },
+  "18.10.16.2": {
+    "code": "18.10.16.2",
+    "description": "確保 '設定 Authenticated Proxy usage for the Connected User Experience 及 Telemetry 服務' 設為 '已啟用: 停用已驗證 Proxy 的使用'",
+    "level": "L2",
+    "full_text": "18.10.16.2 (L2) 確保 '設定 Authenticated Proxy usage for the Connected User Experience 及 Telemetry 服務' 設為 '已啟用: 停用已驗證 Proxy 的使用'"
+  },
+  "18.10.16.3": {
+    "code": "18.10.16.3",
+    "description": "確保 '停用 OneSettings Downloads' 設為 '已啟用'",
+    "level": "L1",
+    "full_text": "18.10.16.3 (L1) 確保 '停用 OneSettings Downloads' 設為 '已啟用'"
+  },
+  "18.10.16.4": {
+    "code": "18.10.16.4",
+    "description": "確保 'Do not show 意見反應 通知' 設為 '已啟用'",
+    "level": "L1",
+    "full_text": "18.10.16.4 (L1) 確保 'Do not show 意見反應 通知' 設為 '已啟用'"
+  },
+  "18.10.16.5": {
+    "code": "18.10.16.5",
+    "description": "確保 '啟用 OneSettings 稽核ing' 設為 '已啟用'",
+    "level": "L1",
+    "full_text": "18.10.16.5 (L1) 確保 '啟用 OneSettings 稽核ing' 設為 '已啟用'"
+  },
+  "18.10.16.6": {
+    "code": "18.10.16.6",
+    "description": "確保 '限制 Diagnostic Log Collection' 設為 '已啟用'",
+    "level": "L1",
+    "full_text": "18.10.16.6 (L1) 確保 '限制 Diagnostic Log Collection' 設為 '已啟用'"
+  },
+  "18.10.16.7": {
+    "code": "18.10.16.7",
+    "description": "確保 '限制 Dump Collection' 設為 '已啟用'",
+    "level": "L1",
+    "full_text": "18.10.16.7 (L1) 確保 '限制 Dump Collection' 設為 '已啟用'"
+  },
+  "18.10.18.1": {
+    "code": "18.10.18.1",
+    "description": "確保 '啟用 應用程式 Installer' 設為 '已禁用'",
+    "level": "L2",
+    "full_text": "18.10.18.1 (L2) 確保 '啟用 應用程式 Installer' 設為 '已禁用'"
+  },
+  "18.10.18.2": {
+    "code": "18.10.18.2",
+    "description": "確保 '啟用 應用程式 Installer Experimental Features' 設為 '已禁用'",
+    "level": "L1",
+    "full_text": "18.10.18.2 (L1) 確保 '啟用 應用程式 Installer Experimental Features' 設為 '已禁用'"
+  },
+  "18.10.18.3": {
+    "code": "18.10.18.3",
+    "description": "確保 '啟用 應用程式 Installer Hash Override' 設為 '已禁用'",
+    "level": "L1",
+    "full_text": "18.10.18.3 (L1) 確保 '啟用 應用程式 Installer Hash Override' 設為 '已禁用'"
+  },
+  "18.10.18.4": {
+    "code": "18.10.18.4",
+    "description": "確保 '啟用 應用程式 Installer Local Archive Malware 掃描 Override' 設為 '已禁用'",
+    "level": "L1",
+    "full_text": "18.10.18.4 (L1) 確保 '啟用 應用程式 Installer Local Archive Malware 掃描 Override' 設為 '已禁用'"
+  },
+  "18.10.18.5": {
+    "code": "18.10.18.5",
+    "description": "確保 '啟用 應用程式 Installer ms-app安裝er 通訊協定' 設為 '已禁用'",
+    "level": "L1",
+    "full_text": "18.10.18.5 (L1) 確保 '啟用 應用程式 Installer ms-app安裝er 通訊協定' 設為 '已禁用'"
+  },
+  "18.10.18.6": {
+    "code": "18.10.18.6",
+    "description": "確保 '啟用 應用程式 Installer Microsoft Store Source Certificate Validation Bypass' 設為 '已禁用'",
+    "level": "L1",
+    "full_text": "18.10.18.6 (L1) 確保 '啟用 應用程式 Installer Microsoft Store Source Certificate Validation Bypass' 設為 '已禁用'"
+  },
+  "18.10.18.7": {
+    "code": "18.10.18.7",
+    "description": "確保 '啟用 Windows Package Manager command line interfaces' 設為 '已禁用'",
+    "level": "L2",
+    "full_text": "18.10.18.7 (L2) 確保 '啟用 Windows Package Manager command line interfaces' 設為 '已禁用'"
+  },
+  "18.10.26.1.1": {
+    "code": "18.10.26.1.1",
+    "description": "確保 'Application: 控制事件記錄檔達到大小上限時的行為' 設為 '已禁用'",
+    "level": "L1",
+    "full_text": "18.10.26.1.1 (L1) 確保 'Application: 控制事件記錄檔達到大小上限時的行為' 設為 '已禁用'"
+  },
+  "18.10.26.1.2": {
+    "code": "18.10.26.1.2",
+    "description": "確保 'Application: 指定事件記錄檔大小上限（KB）' 設為 '已啟用: 32,768 or 以上'",
+    "level": "L1",
+    "full_text": "18.10.26.1.2 (L1) 確保 'Application: 指定事件記錄檔大小上限（KB）' 設為 '已啟用: 32,768 or 以上'"
+  },
+  "18.10.26.2.1": {
+    "code": "18.10.26.2.1",
+    "description": "確保 'Security: 控制事件記錄檔達到大小上限時的行為' 設為 '已禁用'",
+    "level": "L1",
+    "full_text": "18.10.26.2.1 (L1) 確保 'Security: 控制事件記錄檔達到大小上限時的行為' 設為 '已禁用'"
+  },
+  "18.10.26.2.2": {
+    "code": "18.10.26.2.2",
+    "description": "確保 'Security: 指定事件記錄檔大小上限（KB）' 設為 '已啟用: 196,608 or 以上'",
+    "level": "L1",
+    "full_text": "18.10.26.2.2 (L1) 確保 'Security: 指定事件記錄檔大小上限（KB）' 設為 '已啟用: 196,608 or 以上'"
+  },
+  "18.10.26.3.1": {
+    "code": "18.10.26.3.1",
+    "description": "確保 'Setup: 控制事件記錄檔達到大小上限時的行為' 設為 '已禁用'",
+    "level": "L1",
+    "full_text": "18.10.26.3.1 (L1) 確保 'Setup: 控制事件記錄檔達到大小上限時的行為' 設為 '已禁用'"
+  },
+  "18.10.26.3.2": {
+    "code": "18.10.26.3.2",
+    "description": "確保 'Setup: 指定事件記錄檔大小上限（KB）' 設為 '已啟用: 32,768 or 以上'",
+    "level": "L1",
+    "full_text": "18.10.26.3.2 (L1) 確保 'Setup: 指定事件記錄檔大小上限（KB）' 設為 '已啟用: 32,768 or 以上'"
+  },
+  "18.10.26.4.1": {
+    "code": "18.10.26.4.1",
+    "description": "確保 'System: 控制事件記錄檔達到大小上限時的行為' 設為 '已禁用'",
+    "level": "L1",
+    "full_text": "18.10.26.4.1 (L1) 確保 'System: 控制事件記錄檔達到大小上限時的行為' 設為 '已禁用'"
+  },
+  "18.10.26.4.2": {
+    "code": "18.10.26.4.2",
+    "description": "確保 'System: 指定事件記錄檔大小上限（KB）' 設為 '已啟用: 32,768 or 以上'",
+    "level": "L1",
+    "full_text": "18.10.26.4.2 (L1) 確保 'System: 指定事件記錄檔大小上限（KB）' 設為 '已啟用: 32,768 or 以上'"
+  },
+  "18.10.29.2": {
+    "code": "18.10.29.2",
+    "description": "確保 'Do not apply the 網際網路來源標記 tag to files copied from insecure sources' 設為 '已禁用'",
+    "level": "L1",
+    "full_text": "18.10.29.2 (L1) 確保 'Do not apply the 網際網路來源標記 tag to files copied from insecure sources' 設為 '已禁用'"
+  },
+  "18.10.29.3": {
+    "code": "18.10.29.3",
+    "description": "確保 '關閉 資料執行防止 for Explorer' 設為 '已禁用'",
+    "level": "L1",
+    "full_text": "18.10.29.3 (L1) 確保 '關閉 資料執行防止 for Explorer' 設為 '已禁用'"
+  },
+  "18.10.29.4": {
+    "code": "18.10.29.4",
+    "description": "確保 '關閉 heap termination on corruption' 設為 '已禁用'",
+    "level": "L1",
+    "full_text": "18.10.29.4 (L1) 確保 '關閉 heap termination on corruption' 設為 '已禁用'"
+  },
+  "18.10.29.5": {
+    "code": "18.10.29.5",
+    "description": "確保 '關閉 shell 通訊協定 protected mode' 設為 '已禁用'",
+    "level": "L1",
+    "full_text": "18.10.29.5 (L1) 確保 '關閉 shell 通訊協定 protected mode' 設為 '已禁用'"
+  },
+  "18.10.37.1": {
+    "code": "18.10.37.1",
+    "description": "確保 '關閉 位置' 設為 '已啟用'",
+    "level": "L2",
+    "full_text": "18.10.37.1 (L2) 確保 '關閉 位置' 設為 '已啟用'"
+  },
+  "18.10.41.1": {
+    "code": "18.10.41.1",
+    "description": "確保 '允許 Message 服務 雲端同步' 設為 '已禁用'",
+    "level": "L2",
+    "full_text": "18.10.41.1 (L2) 確保 '允許 Message 服務 雲端同步' 設為 '已禁用'"
+  },
+  "18.10.42.1": {
+    "code": "18.10.42.1",
+    "description": "確保 '封鎖 all 消費者 Microsoft 帳戶 使用者 authentication' 設為 '已啟用'",
+    "level": "L1",
+    "full_text": "18.10.42.1 (L1) 確保 '封鎖 all 消費者 Microsoft 帳戶 使用者 authentication' 設為 '已啟用'"
+  },
+  "18.10.43.4.1": {
+    "code": "18.10.43.4.1",
+    "description": "確保 '啟用 EDR in block mode' 設為 '已啟用'",
+    "level": "L1",
+    "full_text": "18.10.43.4.1 (L1) 確保 '啟用 EDR in block mode' 設為 '已啟用'"
+  },
+  "18.10.43.5.1": {
+    "code": "18.10.43.5.1",
+    "description": "確保 '設定 local setting override for re連接埠ing to Microsoft Microsoft 主動保護服務' 設為 '已禁用'",
+    "level": "L1",
+    "full_text": "18.10.43.5.1 (L1) 確保 '設定 local setting override for re連接埠ing to Microsoft Microsoft 主動保護服務' 設為 '已禁用'"
+  },
+  "18.10.43.5.2": {
+    "code": "18.10.43.5.2",
+    "description": "確保 'Join Microsoft Microsoft 主動保護服務' 設為 '已禁用'",
+    "level": "L2",
+    "full_text": "18.10.43.5.2 (L2) 確保 'Join Microsoft Microsoft 主動保護服務' 設為 '已禁用'"
+  },
+  "18.10.43.6.1.1": {
+    "code": "18.10.43.6.1.1",
+    "description": "確保 '設定 Attack Surface Reduction rules' 設為 '已啟用'",
+    "level": "L1",
+    "full_text": "18.10.43.6.1.1 (L1) 確保 '設定 Attack Surface Reduction rules' 設為 '已啟用'"
+  },
+  "18.10.43.6.1.2": {
+    "code": "18.10.43.6.1.2",
+    "description": "確保 '設定 Attack Surface Reduction rules: 設定 the 狀態 for each ASR rule' 設為 '已設定'",
+    "level": "L1",
+    "full_text": "18.10.43.6.1.2 (L1) 確保 '設定 Attack Surface Reduction rules: 設定 the 狀態 for each ASR rule' 設為 '已設定'"
+  },
+  "18.10.43.6.3.1": {
+    "code": "18.10.43.6.3.1",
+    "description": "確保 '防止 使用者s 及 apps from accessing 危險網站' 設為 '已啟用: 封鎖'",
+    "level": "L1",
+    "full_text": "18.10.43.6.3.1 (L1) 確保 '防止 使用者s 及 apps from accessing 危險網站' 設為 '已啟用: 封鎖'"
+  },
+  "18.10.43.7.1": {
+    "code": "18.10.43.7.1",
+    "description": "確保 '啟用 檔案雜湊計算功能' 設為 '已啟用'",
+    "level": "L1",
+    "full_text": "18.10.43.7.1 (L1) 確保 '啟用 檔案雜湊計算功能' 設為 '已啟用'"
+  },
+  "18.10.43.8.1": {
+    "code": "18.10.43.8.1",
+    "description": "確保 '將 warn verdict to block' 設為 '已啟用'",
+    "level": "L2",
+    "full_text": "18.10.43.8.1 (L2) 確保 '將 warn verdict to block' 設為 '已啟用'"
+  },
+  "18.10.43.10.1": {
+    "code": "18.10.43.10.1",
+    "description": "確保 '設定 即時保護 及 Security Intelligence Updates during OOBE' 設為 '已啟用'",
+    "level": "L1",
+    "full_text": "18.10.43.10.1 (L1) 確保 '設定 即時保護 及 Security Intelligence Updates during OOBE' 設為 '已啟用'"
+  },
+  "18.10.43.10.2": {
+    "code": "18.10.43.10.2",
+    "description": "確保 '掃描 all downloaded files 及 附件' 設為 '已啟用'",
+    "level": "L1",
+    "full_text": "18.10.43.10.2 (L1) 確保 '掃描 all downloaded files 及 附件' 設為 '已啟用'"
+  },
+  "18.10.43.10.3": {
+    "code": "18.10.43.10.3",
+    "description": "確保 '關閉 即時保護' 設為 '已禁用'",
+    "level": "L1",
+    "full_text": "18.10.43.10.3 (L1) 確保 '關閉 即時保護' 設為 '已禁用'"
+  },
+  "18.10.43.10.4": {
+    "code": "18.10.43.10.4",
+    "description": "確保 '開啟 行為監控' 設為 '已啟用'",
+    "level": "L1",
+    "full_text": "18.10.43.10.4 (L1) 確保 '開啟 行為監控' 設為 '已啟用'"
+  },
+  "18.10.43.10.5": {
+    "code": "18.10.43.10.5",
+    "description": "確保 '開啟 指令碼掃描' 設為 '已啟用'",
+    "level": "L1",
+    "full_text": "18.10.43.10.5 (L1) 確保 '開啟 指令碼掃描' 設為 '已啟用'"
+  },
+  "18.10.43.11.1.1.1": {
+    "code": "18.10.43.11.1.1.1",
+    "description": "確保 '設定 Brute-Force Protection aggressiveness' 設為 ''已啟用: 中等' 或更高'",
+    "level": "L2",
+    "full_text": "18.10.43.11.1.1.1 (L2) 確保 '設定 Brute-Force Protection aggressiveness' 設為 ''已啟用: 中等' 或更高'"
+  },
+  "18.10.43.11.1.1.2": {
+    "code": "18.10.43.11.1.1.2",
+    "description": "確保 '設定 Remote Encryption Protection Mode' 設為 ''已啟用: 稽核' 或更高'",
+    "level": "L1",
+    "full_text": "18.10.43.11.1.1.2 (L1) 確保 '設定 Remote Encryption Protection Mode' 設為 ''已啟用: 稽核' 或更高'"
+  },
+  "18.10.43.11.1.2.1": {
+    "code": "18.10.43.11.1.2.1",
+    "description": "確保 '設定 how aggressively Remote Encryption Protection blocks threats' 設為 ''已啟用: 中等' 或更高'",
+    "level": "L2",
+    "full_text": "18.10.43.11.1.2.1 (L2) 確保 '設定 how aggressively Remote Encryption Protection blocks threats' 設為 ''已啟用: 中等' 或更高'"
+  },
+  "18.10.43.12.1": {
+    "code": "18.10.43.12.1",
+    "description": "確保 '設定 Watson events' 設為 '已禁用'",
+    "level": "L2",
+    "full_text": "18.10.43.12.1 (L2) 確保 '設定 Watson events' 設為 '已禁用'"
+  },
+  "18.10.43.13.1": {
+    "code": "18.10.43.13.1",
+    "description": "確保 '掃描 excluded files 及 directories during 快速掃描' 設為 '已啟用: 1'",
+    "level": "L1",
+    "full_text": "18.10.43.13.1 (L1) 確保 '掃描 excluded files 及 directories during 快速掃描' 設為 '已啟用: 1'"
+  },
+  "18.10.43.13.2": {
+    "code": "18.10.43.13.2",
+    "description": "確保 '掃描 packed executables' 設為 '已啟用'",
+    "level": "L1",
+    "full_text": "18.10.43.13.2 (L1) 確保 '掃描 packed executables' 設為 '已啟用'"
+  },
+  "18.10.43.13.3": {
+    "code": "18.10.43.13.3",
+    "description": "確保 '掃描 removable 磁碟機s' 設為 '已啟用'",
+    "level": "L1",
+    "full_text": "18.10.43.13.3 (L1) 確保 '掃描 removable 磁碟機s' 設為 '已啟用'"
+  },
+  "18.10.43.13.4": {
+    "code": "18.10.43.13.4",
+    "description": "確保 'Trigger a 快速掃描 after X 天 without any scans' 設為 '已啟用: 7'",
+    "level": "L1",
+    "full_text": "18.10.43.13.4 (L1) 確保 'Trigger a 快速掃描 after X 天 without any scans' 設為 '已啟用: 7'"
+  },
+  "18.10.43.13.5": {
+    "code": "18.10.43.13.5",
+    "description": "確保 '開啟 電子郵件掃描' 設為 '已啟用'",
+    "level": "L1",
+    "full_text": "18.10.43.13.5 (L1) 確保 '開啟 電子郵件掃描' 設為 '已啟用'"
+  },
+  "18.10.43.16": {
+    "code": "18.10.43.16",
+    "description": "確保 '設定 detection for potentially unwanted 應用程式s' 設為 '已啟用: 封鎖'",
+    "level": "L1",
+    "full_text": "18.10.43.16 (L1) 確保 '設定 detection for potentially unwanted 應用程式s' 設為 '已啟用: 封鎖'"
+  },
+  "18.10.43.17": {
+    "code": "18.10.43.17",
+    "description": "確保 '控制 whether exclusions are visible to local 使用者s' 設為 '已啟用'",
+    "level": "L1",
+    "full_text": "18.10.43.17 (L1) 確保 '控制 whether exclusions are visible to local 使用者s' 設為 '已啟用'"
+  },
+  "18.10.51.1": {
+    "code": "18.10.51.1",
+    "description": "確保 '防止 the usage of OneDrive for file storage' 設為 '已啟用'",
+    "level": "L1",
+    "full_text": "18.10.51.1 (L1) 確保 '防止 the usage of OneDrive for file storage' 設為 '已啟用'"
+  },
+  "18.10.56.1": {
+    "code": "18.10.56.1",
+    "description": "確保 '關閉 Push To Install 服務' 設為 '已啟用'",
+    "level": "L2",
+    "full_text": "18.10.56.1 (L2) 確保 '關閉 Push To Install 服務' 設為 '已啟用'"
+  },
+  "18.10.57.2.2": {
+    "code": "18.10.57.2.2",
+    "description": "確保 ''Do not allow 密碼s to' 設為 'saved' is set to '已啟用''",
+    "level": "L1",
+    "full_text": "18.10.57.2.2 (L1) 確保 ''Do not allow 密碼s to' 設為 'saved' is set to '已啟用''"
+  },
+  "18.10.57.3.1": {
+    "code": "18.10.57.3.1",
+    "description": "確保 '設定 time limit for 已中斷連線的工作階段' 設為 ' '",
+    "level": "L2",
+    "full_text": "18.10.57.3.1 (L2) 確保 '設定 time limit for 已中斷連線的工作階段' 設為 ' '"
+  },
+  "18.10.57.3.2.1": {
+    "code": "18.10.57.3.2.1",
+    "description": "確保 'Restrict 遠端桌面服務 使用者s to a single 遠端桌面服務 工作階段' 設為 '已啟用'",
+    "level": "L2",
+    "full_text": "18.10.57.3.2.1 (L2) 確保 'Restrict 遠端桌面服務 使用者s to a single 遠端桌面服務 工作階段' 設為 '已啟用'"
+  },
+  "18.10.57.3.3.1": {
+    "code": "18.10.57.3.3.1",
+    "description": "確保 '允許 UI Automation redirection' 設為 '已禁用'",
+    "level": "L2",
+    "full_text": "18.10.57.3.3.1 (L2) 確保 '允許 UI Automation redirection' 設為 '已禁用'"
+  },
+  "18.10.57.3.3.2": {
+    "code": "18.10.57.3.3.2",
+    "description": "確保 'Do not allow COM 連接埠 redirection' 設為 '已啟用'",
+    "level": "L2",
+    "full_text": "18.10.57.3.3.2 (L2) 確保 'Do not allow COM 連接埠 redirection' 設為 '已啟用'"
+  },
+  "18.10.57.3.3.3": {
+    "code": "18.10.57.3.3.3",
+    "description": "確保 'Do not allow 磁碟機 redirection' 設為 '已啟用'",
+    "level": "L1",
+    "full_text": "18.10.57.3.3.3 (L1) 確保 'Do not allow 磁碟機 redirection' 設為 '已啟用'"
+  },
+  "18.10.57.3.3.4": {
+    "code": "18.10.57.3.3.4",
+    "description": "確保 'Do not allow 位置 redirection' 設為 '已啟用'",
+    "level": "L2",
+    "full_text": "18.10.57.3.3.4 (L2) 確保 'Do not allow 位置 redirection' 設為 '已啟用'"
+  },
+  "18.10.57.3.3.5": {
+    "code": "18.10.57.3.3.5",
+    "description": "確保 'Do not allow LPT 連接埠 redirection' 設為 '已啟用'",
+    "level": "L2",
+    "full_text": "18.10.57.3.3.5 (L2) 確保 'Do not allow LPT 連接埠 redirection' 設為 '已啟用'"
+  },
+  "18.10.57.3.3.6": {
+    "code": "18.10.57.3.3.6",
+    "description": "確保 'Do not allow sup連接埠ed Plug 及 Play device redirection' 設為 '已啟用'",
+    "level": "L2",
+    "full_text": "18.10.57.3.3.6 (L2) 確保 'Do not allow sup連接埠ed Plug 及 Play device redirection' 設為 '已啟用'"
+  },
+  "18.10.57.3.3.7": {
+    "code": "18.10.57.3.3.7",
+    "description": "確保 'Do not allow WebAuthn redirection' 設為 '已啟用'",
+    "level": "L2",
+    "full_text": "18.10.57.3.3.7 (L2) 確保 'Do not allow WebAuthn redirection' 設為 '已啟用'"
+  },
+  "18.10.57.3.9.1": {
+    "code": "18.10.57.3.9.1",
+    "description": "確保 '始終 prompt for 密碼 upon 連線' 設為 '已啟用'",
+    "level": "L1",
+    "full_text": "18.10.57.3.9.1 (L1) 確保 '始終 prompt for 密碼 upon 連線' 設為 '已啟用'"
+  },
+  "18.10.57.3.9.2": {
+    "code": "18.10.57.3.9.2",
+    "description": "確保 '要求 secure RPC communication' 設為 '已啟用'",
+    "level": "L1",
+    "full_text": "18.10.57.3.9.2 (L1) 確保 '要求 secure RPC communication' 設為 '已啟用'"
+  },
+  "18.10.57.3.9.3": {
+    "code": "18.10.57.3.9.3",
+    "description": "確保 '要求 use of specific security layer for 遠端 (RDP) 連線s' 設為 '已啟用: SSL'",
+    "level": "L1",
+    "full_text": "18.10.57.3.9.3 (L1) 確保 '要求 use of specific security layer for 遠端 (RDP) 連線s' 設為 '已啟用: SSL'"
+  },
+  "18.10.57.3.9.4": {
+    "code": "18.10.57.3.9.4",
+    "description": "確保 '要求 使用者 authentication for 遠端 連線s by using Network Level Authentication' 設為 '已啟用'",
+    "level": "L1",
+    "full_text": "18.10.57.3.9.4 (L1) 確保 '要求 使用者 authentication for 遠端 連線s by using Network Level Authentication' 設為 '已啟用'"
+  },
+  "18.10.57.3.9.5": {
+    "code": "18.10.57.3.9.5",
+    "description": "確保 '設定 client 連線 encryption level' 設為 '已啟用: 高等級'",
+    "level": "L1",
+    "full_text": "18.10.57.3.9.5 (L1) 確保 '設定 client 連線 encryption level' 設為 '已啟用: 高等級'"
+  },
+  "18.10.57.3.10.1": {
+    "code": "18.10.57.3.10.1",
+    "description": "確保 '設定 time limit for active but idle 遠端桌面服務 工作階段s' 設為 '已啟用: 15 分鐘 or 以下, 但不可為 永不（0）'",
+    "level": "L2",
+    "full_text": "18.10.57.3.10.1 (L2) 確保 '設定 time limit for active but idle 遠端桌面服務 工作階段s' 設為 '已啟用: 15 分鐘 or 以下, 但不可為 永不（0）'"
+  },
+  "18.10.57.3.10.2": {
+    "code": "18.10.57.3.10.2",
+    "description": "確保 '設定 time limit for 已中斷連線的工作階段' 設為 '已啟用: 1 分鐘'",
+    "level": "L2",
+    "full_text": "18.10.57.3.10.2 (L2) 確保 '設定 time limit for 已中斷連線的工作階段' 設為 '已啟用: 1 分鐘'"
+  },
+  "18.10.57.3.11.1": {
+    "code": "18.10.57.3.11.1",
+    "description": "確保 'Do not delete 暫存資料夾 upon exit' 設為 '已禁用'",
+    "level": "L1",
+    "full_text": "18.10.57.3.11.1 (L1) 確保 'Do not delete 暫存資料夾 upon exit' 設為 '已禁用'"
+  },
+  "18.10.57.3.11.2": {
+    "code": "18.10.57.3.11.2",
+    "description": "確保 'Do not use temporary 資料夾 per 工作階段' 設為 '已禁用'",
+    "level": "L1",
+    "full_text": "18.10.57.3.11.2 (L1) 確保 'Do not use temporary 資料夾 per 工作階段' 設為 '已禁用'"
+  },
+  "18.10.58.1": {
+    "code": "18.10.58.1",
+    "description": "確保 '防止 downloading of enclosures' 設為 '已啟用'",
+    "level": "L1",
+    "full_text": "18.10.58.1 (L1) 確保 '防止 downloading of enclosures' 設為 '已啟用'"
+  },
+  "18.10.58.2": {
+    "code": "18.10.58.2",
+    "description": "確保 '開啟 Basic feed authentication over HTTP' 設為 '已禁用'",
+    "level": "L1",
+    "full_text": "18.10.58.2 (L1) 確保 '開啟 Basic feed authentication over HTTP' 設為 '已禁用'"
+  },
+  "18.10.59.2": {
+    "code": "18.10.59.2",
+    "description": "確保 '允許 雲端搜尋' 設為 '已啟用: 停用 雲端搜尋'",
+    "level": "L2",
+    "full_text": "18.10.59.2 (L2) 確保 '允許 雲端搜尋' 設為 '已啟用: 停用 雲端搜尋'"
+  },
+  "18.10.59.3": {
+    "code": "18.10.59.3",
+    "description": "確保 '允許 索引 of 加密檔案' 設為 '已禁用'",
+    "level": "L1",
+    "full_text": "18.10.59.3 (L1) 確保 '允許 索引 of 加密檔案' 設為 '已禁用'"
+  },
+  "18.10.59.4": {
+    "code": "18.10.59.4",
+    "description": "確保 '允許 搜尋醒目提示' 設為 '已禁用'",
+    "level": "L2",
+    "full_text": "18.10.59.4 (L2) 確保 '允許 搜尋醒目提示' 設為 '已禁用'"
+  },
+  "18.10.63.1": {
+    "code": "18.10.63.1",
+    "description": "確保 '關閉 KMS Client Online AVS Validation' 設為 '已啟用'",
+    "level": "L2",
+    "full_text": "18.10.63.1 (L2) 確保 '關閉 KMS Client Online AVS Validation' 設為 '已啟用'"
+  },
+  "18.10.76.2.1": {
+    "code": "18.10.76.2.1",
+    "description": "確保 '設定 Windows Defender 智能屏幕' 設為 '已啟用: 警告並防止略過'",
+    "level": "L1",
+    "full_text": "18.10.76.2.1 (L1) 確保 '設定 Windows Defender 智能屏幕' 設為 '已啟用: 警告並防止略過'"
+  },
+  "18.10.80.1": {
+    "code": "18.10.80.1",
+    "description": "確保 '允許 suggested apps in Windows Ink 工作區' 設為 '已禁用'",
+    "level": "L2",
+    "full_text": "18.10.80.1 (L2) 確保 '允許 suggested apps in Windows Ink 工作區' 設為 '已禁用'"
+  },
+  "18.10.80.2": {
+    "code": "18.10.80.2",
+    "description": "確保 '允許 Windows Ink 工作區' 設為 '已啟用: On, but disallow access above lock' OR '已啟用: 已禁用'",
+    "level": "L1",
+    "full_text": "18.10.80.2 (L1) 確保 '允許 Windows Ink 工作區' 設為 '已啟用: On, but disallow access above lock' OR '已啟用: 已禁用'"
+  },
+  "18.10.81.1": {
+    "code": "18.10.81.1",
+    "description": "確保 '允許 使用者 control over 安裝s' 設為 '已禁用'",
+    "level": "L1",
+    "full_text": "18.10.81.1 (L1) 確保 '允許 使用者 control over 安裝s' 設為 '已禁用'"
+  },
+  "18.10.81.2": {
+    "code": "18.10.81.2",
+    "description": "確保 '始終 安裝 with elevated privileges' 設為 '已禁用'",
+    "level": "L1",
+    "full_text": "18.10.81.2 (L1) 確保 '始終 安裝 with elevated privileges' 設為 '已禁用'"
+  },
+  "18.10.81.3": {
+    "code": "18.10.81.3",
+    "description": "確保 '防止 Internet Explorer security prompt for Windows Installer scripts' 設為 '已禁用'",
+    "level": "L2",
+    "full_text": "18.10.81.3 (L2) 確保 '防止 Internet Explorer security prompt for Windows Installer scripts' 設為 '已禁用'"
+  },
+  "18.10.82.1": {
+    "code": "18.10.82.1",
+    "description": "確保 '設定 the transmission of the 使用者's 密碼 in the 內容 of MPR 通知 sent by winlogon.' 設為 '已禁用'",
+    "level": "L1",
+    "full_text": "18.10.82.1 (L1) 確保 '設定 the transmission of the 使用者's 密碼 in the 內容 of MPR 通知 sent by winlogon.' 設為 '已禁用'"
+  },
+  "18.10.82.2": {
+    "code": "18.10.82.2",
+    "description": "確保 'Sign-in 及 lock last interactive 使用者 automatically after a 重新啟動' 設為 '已禁用'",
+    "level": "L1",
+    "full_text": "18.10.82.2 (L1) 確保 'Sign-in 及 lock last interactive 使用者 automatically after a 重新啟動' 設為 '已禁用'"
+  },
+  "18.10.87.1": {
+    "code": "18.10.87.1",
+    "description": "確保 '開啟 PowerShell Script 封鎖 Logging' 設為 '已啟用'",
+    "level": "L2",
+    "full_text": "18.10.87.1 (L2) 確保 '開啟 PowerShell Script 封鎖 Logging' 設為 '已啟用'"
+  },
+  "18.10.87.2": {
+    "code": "18.10.87.2",
+    "description": "確保 '開啟 PowerShell Transcription' 設為 '已啟用'",
+    "level": "L2",
+    "full_text": "18.10.87.2 (L2) 確保 '開啟 PowerShell Transcription' 設為 '已啟用'"
+  },
+  "18.10.89.1.1": {
+    "code": "18.10.89.1.1",
+    "description": "確保 '允許 Basic authentication' 設為 '已禁用'",
+    "level": "L1",
+    "full_text": "18.10.89.1.1 (L1) 確保 '允許 Basic authentication' 設為 '已禁用'"
+  },
+  "18.10.89.1.2": {
+    "code": "18.10.89.1.2",
+    "description": "確保 '允許 unencrypted traffic' 設為 '已禁用'",
+    "level": "L1",
+    "full_text": "18.10.89.1.2 (L1) 確保 '允許 unencrypted traffic' 設為 '已禁用'"
+  },
+  "18.10.89.1.3": {
+    "code": "18.10.89.1.3",
+    "description": "確保 'Disallow Digest authentication' 設為 '已啟用'",
+    "level": "L1",
+    "full_text": "18.10.89.1.3 (L1) 確保 'Disallow Digest authentication' 設為 '已啟用'"
+  },
+  "18.10.89.2.1": {
+    "code": "18.10.89.2.1",
+    "description": "確保 '允許 Basic authentication' 設為 '已禁用'",
+    "level": "L1",
+    "full_text": "18.10.89.2.1 (L1) 確保 '允許 Basic authentication' 設為 '已禁用'"
+  },
+  "18.10.89.2.2": {
+    "code": "18.10.89.2.2",
+    "description": "確保 '允許 遠端 server management through WinRM' 設為 '已禁用'",
+    "level": "L2",
+    "full_text": "18.10.89.2.2 (L2) 確保 '允許 遠端 server management through WinRM' 設為 '已禁用'"
+  },
+  "18.10.89.2.3": {
+    "code": "18.10.89.2.3",
+    "description": "確保 '允許 unencrypted traffic' 設為 '已禁用'",
+    "level": "L1",
+    "full_text": "18.10.89.2.3 (L1) 確保 '允許 unencrypted traffic' 設為 '已禁用'"
+  },
+  "18.10.89.2.4": {
+    "code": "18.10.89.2.4",
+    "description": "確保 'Disallow WinRM from storing RunAs credentials' 設為 '已啟用'",
+    "level": "L1",
+    "full_text": "18.10.89.2.4 (L1) 確保 'Disallow WinRM from storing RunAs credentials' 設為 '已啟用'"
+  },
+  "18.10.90.1": {
+    "code": "18.10.90.1",
+    "description": "確保 '允許 遠端殼層存取' 設為 '已禁用'",
+    "level": "L2",
+    "full_text": "18.10.90.1 (L2) 確保 '允許 遠端殼層存取' 設為 '已禁用'"
+  },
+  "18.10.92.2.1": {
+    "code": "18.10.92.2.1",
+    "description": "確保 '防止 使用者s from modifying settings' 設為 '已啟用'",
+    "level": "L1",
+    "full_text": "18.10.92.2.1 (L1) 確保 '防止 使用者s from modifying settings' 設為 '已啟用'"
+  },
+  "18.10.93.1.1": {
+    "code": "18.10.93.1.1",
+    "description": "確保 '否 auto-重新啟動 with logged on 使用者s for scheduled automatic updates 安裝ations' 設為 '已禁用'",
+    "level": "L1",
+    "full_text": "18.10.93.1.1 (L1) 確保 '否 auto-重新啟動 with logged on 使用者s for scheduled automatic updates 安裝ations' 設為 '已禁用'"
+  },
+  "18.10.93.2.1": {
+    "code": "18.10.93.2.1",
+    "description": "確保 '設定 自動更新' 設為 '已啟用'",
+    "level": "L1",
+    "full_text": "18.10.93.2.1 (L1) 確保 '設定 自動更新' 設為 '已啟用'"
+  },
+  "18.10.93.2.2": {
+    "code": "18.10.93.2.2",
+    "description": "確保 '設定 自動更新: Scheduled 安裝 天' 設為 '0 - Every 天'",
+    "level": "L1",
+    "full_text": "18.10.93.2.2 (L1) 確保 '設定 自動更新: Scheduled 安裝 天' 設為 '0 - Every 天'"
+  },
+  "18.10.93.4.1": {
+    "code": "18.10.93.4.1",
+    "description": "確保 '管理 預覽組建' 設為 '已禁用'",
+    "level": "L1",
+    "full_text": "18.10.93.4.1 (L1) 確保 '管理 預覽組建' 設為 '已禁用'"
+  },
+  "18.10.93.4.2": {
+    "code": "18.10.93.4.2",
+    "description": "確保 '選擇何時 Preview Builds 及 功能更新 are received' 設為 '已啟用: 180 或以上 天'",
+    "level": "L1",
+    "full_text": "18.10.93.4.2 (L1) 確保 '選擇何時 Preview Builds 及 功能更新 are received' 設為 '已啟用: 180 或以上 天'"
+  },
+  "18.10.93.4.3": {
+    "code": "18.10.93.4.3",
+    "description": "確保 '選擇何時 品質更新 are received' 設為 '已啟用: 0 天'",
+    "level": "L1",
+    "full_text": "18.10.93.4.3 (L1) 確保 '選擇何時 品質更新 are received' 設為 '已啟用: 0 天'"
+  },
+  "19.5.1.1": {
+    "code": "19.5.1.1",
+    "description": "確保 '關閉 toast 通知 on the lock 畫面' 設為 '已啟用'",
+    "level": "L1",
+    "full_text": "19.5.1.1 (L1) 確保 '關閉 toast 通知 on the lock 畫面' 設為 '已啟用'"
+  },
+  "19.6.6.1.1": {
+    "code": "19.6.6.1.1",
+    "description": "確保 '關閉 Help Experience Improvement Program' 設為 '已啟用'",
+    "level": "L2",
+    "full_text": "19.6.6.1.1 (L2) 確保 '關閉 Help Experience Improvement Program' 設為 '已啟用'"
+  },
+  "19.7.5.1": {
+    "code": "19.7.5.1",
+    "description": "確保 'Do not preserve zone information in file 附件' 設為 '已禁用'",
+    "level": "L1",
+    "full_text": "19.7.5.1 (L1) 確保 'Do not preserve zone information in file 附件' 設為 '已禁用'"
+  },
+  "19.7.5.2": {
+    "code": "19.7.5.2",
+    "description": "確保 '通知 antivirus programs when opening 附件' 設為 '已啟用'",
+    "level": "L1",
+    "full_text": "19.7.5.2 (L1) 確保 '通知 antivirus programs when opening 附件' 設為 '已啟用'"
+  },
+  "19.7.8.1": {
+    "code": "19.7.8.1",
+    "description": "確保 '設定 Windows spotlight on lock 畫面' 設為 '已禁用'",
+    "level": "L1",
+    "full_text": "19.7.8.1 (L1) 確保 '設定 Windows spotlight on lock 畫面' 設為 '已禁用'"
+  },
+  "19.7.8.2": {
+    "code": "19.7.8.2",
+    "description": "確保 'Do not suggest third-party 內容 in Windows spotlight' 設為 '已啟用'",
+    "level": "L1",
+    "full_text": "19.7.8.2 (L1) 確保 'Do not suggest third-party 內容 in Windows spotlight' 設為 '已啟用'"
+  },
+  "19.7.8.3": {
+    "code": "19.7.8.3",
+    "description": "確保 'Do not use 診斷 data for tailored experiences' 設為 '已啟用'",
+    "level": "L2",
+    "full_text": "19.7.8.3 (L2) 確保 'Do not use 診斷 data for tailored experiences' 設為 '已啟用'"
+  },
+  "19.7.8.4": {
+    "code": "19.7.8.4",
+    "description": "確保 '關閉 all Windows spotlight features' 設為 '已啟用'",
+    "level": "L2",
+    "full_text": "19.7.8.4 (L2) 確保 '關閉 all Windows spotlight features' 設為 '已啟用'"
+  },
+  "19.7.8.5": {
+    "code": "19.7.8.5",
+    "description": "確保 '關閉 Spotlight collection on Desktop' 設為 '已啟用'",
+    "level": "L1",
+    "full_text": "19.7.8.5 (L1) 確保 '關閉 Spotlight collection on Desktop' 設為 '已啟用'"
+  },
+  "19.7.26.1": {
+    "code": "19.7.26.1",
+    "description": "確保 '防止 使用者s from sharing files within their profile.' 設為 '已啟用'",
+    "level": "L1",
+    "full_text": "19.7.26.1 (L1) 確保 '防止 使用者s from sharing files within their profile.' 設為 '已啟用'"
+  },
+  "19.7.44.1": {
+    "code": "19.7.44.1",
+    "description": "確保 '始終 安裝 with elevated privileges' 設為 '已禁用'",
+    "level": "L1",
+    "full_text": "19.7.44.1 (L1) 確保 '始終 安裝 with elevated privileges' 設為 '已禁用'"
+  },
+  "19.7.46.2.1": {
+    "code": "19.7.46.2.1",
+    "description": "確保 '防止 Codec Download' 設為 '已啟用'",
+    "level": "L2",
+    "full_text": "19.7.46.2.1 (L2) 確保 '防止 Codec Download' 設為 '已啟用'"
+  }
+}

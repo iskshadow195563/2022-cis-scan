@@ -1,0 +1,3052 @@
+{
+  "1.1.1": {
+    "action": "secedit_system_access",
+    "reboot": false,
+    "system_access": {
+      "PasswordHistorySize": 24
+    }
+  },
+  "1.1.2": {
+    "action": "net_accounts_compare",
+    "reboot": false,
+    "key": "MaxPasswordAge",
+    "compare_op": "le",
+    "expected": 365
+  },
+  "1.1.3": {
+    "action": "net_accounts_compare",
+    "reboot": false,
+    "key": "MinPasswordAge",
+    "compare_op": "ge",
+    "expected": 1
+  },
+  "1.1.4": {
+    "action": "net_accounts_compare",
+    "reboot": false,
+    "key": "MinPasswordLength",
+    "compare_op": "ge",
+    "expected": 14
+  },
+  "1.1.5": {
+    "action": "secedit_system_access",
+    "reboot": false,
+    "system_access": {
+      "PasswordComplexity": 1
+    }
+  },
+  "1.1.6": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "HKLM:\\SYSTEM\\CurrentControlSet\\Control\\Sam",
+    "name": "RelaxMinimumPasswordLengthLimits",
+    "expected": 1
+  },
+  "1.1.7": {
+    "action": "secedit_system_access",
+    "reboot": false,
+    "system_access": {
+      "ClearTextPassword": 0
+    }
+  },
+  "1.2.1": {
+    "action": "net_accounts_compare",
+    "reboot": false,
+    "key": "LockoutDuration",
+    "compare_op": "ge",
+    "expected": 15
+  },
+  "1.2.2": {
+    "action": "net_accounts_compare",
+    "reboot": false,
+    "key": "LockoutThreshold",
+    "compare_op": "le",
+    "expected": 5
+  },
+  "1.2.3": {
+    "action": "net_accounts_compare",
+    "reboot": false,
+    "key": "LockoutWindow",
+    "compare_op": "ge",
+    "expected": 15
+  },
+  "1.2.4": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "HKLM:\\SYSTEM\\CurrentControlSet\\Control\\Lsa",
+    "name": "LimitBlankPasswordUse",
+    "expected": 0
+  },
+  "2.2.1": {
+    "action": "secedit_privilege_rights",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.2.2": {
+    "action": "secedit_privilege_rights",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.2.3": {
+    "action": "secedit_privilege_rights",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.2.4": {
+    "action": "secedit_privilege_rights",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.2.5": {
+    "action": "secedit_privilege_rights",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.2.6": {
+    "action": "secedit_privilege_rights",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.2.7": {
+    "action": "secedit_privilege_rights",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.2.8": {
+    "action": "secedit_privilege_rights",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.2.9": {
+    "action": "secedit_privilege_rights",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.2.10": {
+    "action": "secedit_privilege_rights",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.2.11": {
+    "action": "secedit_privilege_rights",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.2.12": {
+    "action": "secedit_privilege_rights",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.2.13": {
+    "action": "secedit_privilege_rights",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.2.14": {
+    "action": "secedit_privilege_rights",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.2.15": {
+    "action": "secedit_privilege_rights",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.2.16": {
+    "action": "secedit_privilege_rights",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.2.17": {
+    "action": "secedit_privilege_rights",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.2.18": {
+    "action": "secedit_privilege_rights",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.2.19": {
+    "action": "secedit_privilege_rights",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.2.20": {
+    "action": "secedit_privilege_rights",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.2.21": {
+    "action": "secedit_privilege_rights",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.2.22": {
+    "action": "secedit_privilege_rights",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.2.23": {
+    "action": "secedit_privilege_rights",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.2.24": {
+    "action": "secedit_privilege_rights",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.2.25": {
+    "action": "secedit_privilege_rights",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.2.26": {
+    "action": "secedit_privilege_rights",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.2.27": {
+    "action": "secedit_privilege_rights",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.2.28": {
+    "action": "secedit_privilege_rights",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.2.29": {
+    "action": "secedit_privilege_rights",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.2.30": {
+    "action": "secedit_privilege_rights",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.2.31": {
+    "action": "secedit_privilege_rights",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.2.32": {
+    "action": "secedit_privilege_rights",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.2.33": {
+    "action": "secedit_privilege_rights",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.2.34": {
+    "action": "secedit_privilege_rights",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.2.35": {
+    "action": "secedit_privilege_rights",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.2.36": {
+    "action": "secedit_privilege_rights",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.2.37": {
+    "action": "secedit_privilege_rights",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.2.38": {
+    "action": "secedit_privilege_rights",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.2.39": {
+    "action": "secedit_privilege_rights",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.2.40": {
+    "action": "secedit_privilege_rights",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.2.41": {
+    "action": "secedit_privilege_rights",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.2.42": {
+    "action": "secedit_privilege_rights",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.2.43": {
+    "action": "secedit_privilege_rights",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.2.44": {
+    "action": "secedit_privilege_rights",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.2.45": {
+    "action": "secedit_privilege_rights",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.2.46": {
+    "action": "secedit_privilege_rights",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.2.47": {
+    "action": "secedit_privilege_rights",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.2.48": {
+    "action": "secedit_privilege_rights",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.2.49": {
+    "action": "secedit_privilege_rights",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.3.1.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\System",
+    "name": "NoConnectedUser",
+    "expected": 3
+  },
+  "2.3.1.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\System",
+    "name": "EnableLUA",
+    "expected": 1
+  },
+  "2.3.1.3": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\System",
+    "name": "EnableVirtualization",
+    "expected": 1
+  },
+  "2.3.1.4": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\System",
+    "name": "PromptOnSecureDesktop",
+    "expected": 1
+  },
+  "2.3.2.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\System",
+    "name": "DisableAutomaticRestartSignOn",
+    "expected": 1
+  },
+  "2.3.2.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.3.4.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "HKLM:\\SYSTEM\\CurrentControlSet\\Control\\Session Manager\\Memory Management",
+    "name": "ClearPageFileAtShutdown",
+    "expected": 1
+  },
+  "2.3.5.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\NetBT\\Parameters",
+    "name": "NoNameReleaseOnDemand",
+    "expected": 1
+  },
+  "2.3.5.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.3.5.3": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.3.5.4": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.3.5.5": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.3.6.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\Tcpip6\\Parameters",
+    "name": "DisableIPSourceRouting",
+    "expected": 2
+  },
+  "2.3.6.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\Tcpip\\Parameters",
+    "name": "DisableIPSourceRouting",
+    "expected": 2
+  },
+  "2.3.6.3": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.3.6.4": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.3.6.5": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.3.6.6": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.3.7.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "HKLM:\\SYSTEM\\CurrentControlSet\\Control\\Lsa",
+    "name": "LimitBlankPasswordUse",
+    "expected": 1
+  },
+  "2.3.7.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "HKLM:\\SYSTEM\\CurrentControlSet\\Control\\Lsa",
+    "name": "NoLMHash",
+    "expected": 1
+  },
+  "2.3.7.3": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "HKLM:\\SYSTEM\\CurrentControlSet\\Control\\Lsa",
+    "name": "DisableDomainCreds",
+    "expected": 0
+  },
+  "2.3.7.4": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "HKLM:\\SYSTEM\\CurrentControlSet\\Control\\Lsa",
+    "name": "RestrictAnonymous",
+    "expected": 0
+  },
+  "2.3.7.5": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "HKLM:\\SYSTEM\\CurrentControlSet\\Control\\Lsa",
+    "name": "RestrictAnonymousSAM",
+    "expected": 1
+  },
+  "2.3.7.6": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "HKLM:\\SYSTEM\\CurrentControlSet\\Control\\Lsa",
+    "name": "EveryoneIncludesAnonymous",
+    "expected": 0
+  },
+  "2.3.7.7": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "HKLM:\\SYSTEM\\CurrentControlSet\\Control\\Lsa\\MSV1_0",
+    "name": "NTLMMinClientSec",
+    "expected": 537395200
+  },
+  "2.3.7.8": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "HKLM:\\SYSTEM\\CurrentControlSet\\Control\\Lsa",
+    "name": "LmCompatibilityLevel",
+    "expected": 5
+  },
+  "2.3.7.9": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "HKLM:\\SYSTEM\\CurrentControlSet\\Control\\Lsa",
+    "name": "RestrictRemoteSAM",
+    "expected": 1
+  },
+  "2.3.8.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "HKLM:\\SYSTEM\\CurrentControlSet\\Control\\Lsa\\FIPSAlgorithmPolicy",
+    "name": "Enabled",
+    "expected": 0
+  },
+  "2.3.8.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.3.8.3": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.3.9.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "HKLM:\\SYSTEM\\CurrentControlSet\\Control\\Lsa\\MSV1_0",
+    "name": "AllowNullSessionFallback",
+    "expected": 0
+  },
+  "2.3.9.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "HKLM:\\SYSTEM\\CurrentControlSet\\Control\\Lsa\\pku2u",
+    "name": "AllowOnlineID",
+    "expected": 0
+  },
+  "2.3.9.3": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.3.9.4": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.3.9.5": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.3.10.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\LanManServer\\Parameters",
+    "name": "EnableSecuritySignature",
+    "expected": 1
+  },
+  "2.3.10.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\LanManServer\\Parameters",
+    "name": "RequireSecuritySignature",
+    "expected": 1
+  },
+  "2.3.10.3": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\LanManServer\\Parameters",
+    "name": "EnableForcedLogoff",
+    "expected": 1
+  },
+  "2.3.10.4": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\LanmanWorkstation\\Parameters",
+    "name": "RequireSecuritySignature",
+    "expected": 1
+  },
+  "2.3.10.5": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\LanmanWorkstation\\Parameters",
+    "name": "EnableSecuritySignature",
+    "expected": 1
+  },
+  "2.3.10.6": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\LDAP",
+    "name": "LDAPClientIntegrity",
+    "expected": 2
+  },
+  "2.3.10.7": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\Netlogon\\Parameters",
+    "name": "RefusePasswordChange",
+    "expected": 0
+  },
+  "2.3.10.8": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\Netlogon\\Parameters",
+    "name": "SealSecureChannel",
+    "expected": 1
+  },
+  "2.3.10.9": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\Netlogon\\Parameters",
+    "name": "SignSecureChannel",
+    "expected": 1
+  },
+  "2.3.10.10": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\Netlogon\\Parameters",
+    "name": "RequireSignOrSeal",
+    "expected": 1
+  },
+  "2.3.10.11": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\LanmanServer\\Parameters",
+    "name": "EnableSMBQUIC",
+    "expected": 0
+  },
+  "2.3.10.12": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.3.10.13": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.3.11.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\LanmanServer\\Parameters",
+    "name": "AutoDisconnect",
+    "expected": 15
+  },
+  "2.3.11.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\LanmanServer\\Parameters",
+    "name": "SMB1",
+    "expected": 0
+  },
+  "2.3.11.3": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.3.11.4": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.3.11.5": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.3.11.6": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.3.11.7": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.3.11.8": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.3.11.9": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.3.11.10": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.3.11.11": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.3.11.12": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.3.11.13": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.3.11.14": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.3.13.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.3.15.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.3.15.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.3.17.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.3.17.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.3.17.3": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.3.17.4": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.3.17.5": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.3.17.6": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.3.17.7": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "2.3.17.8": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "5.1": {
+    "action": "service",
+    "reboot": false,
+    "service_name": "Spooler",
+    "expected_state": "Stopped"
+  },
+  "5.2": {
+    "action": "service",
+    "reboot": false,
+    "service_name": "RemoteRegistry",
+    "expected_state": "Stopped"
+  },
+  "9.1.1": {
+    "action": "firewall_profile",
+    "reboot": false,
+    "profile": "Domain",
+    "setting": "Enabled",
+    "expected": "True"
+  },
+  "9.1.2": {
+    "action": "firewall_profile",
+    "reboot": false,
+    "profile": "Private",
+    "setting": "Enabled",
+    "expected": "True"
+  },
+  "9.1.3": {
+    "action": "firewall_profile",
+    "reboot": false,
+    "profile": "Public",
+    "setting": "Enabled",
+    "expected": "True"
+  },
+  "9.1.4": {
+    "action": "firewall_profile",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "9.1.5": {
+    "action": "firewall_profile",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "9.1.6": {
+    "action": "firewall_profile",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "9.1.7": {
+    "action": "firewall_profile",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "9.2.1": {
+    "action": "firewall_profile",
+    "reboot": false,
+    "profile": "Domain",
+    "setting": "DefaultInboundAction",
+    "expected": "Block"
+  },
+  "9.2.2": {
+    "action": "firewall_profile",
+    "reboot": false,
+    "profile": "Private",
+    "setting": "DefaultInboundAction",
+    "expected": "Block"
+  },
+  "9.2.3": {
+    "action": "firewall_profile",
+    "reboot": false,
+    "profile": "Public",
+    "setting": "DefaultInboundAction",
+    "expected": "Block"
+  },
+  "9.2.4": {
+    "action": "firewall_profile",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "9.2.5": {
+    "action": "firewall_profile",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "9.2.6": {
+    "action": "firewall_profile",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "9.2.7": {
+    "action": "firewall_profile",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "9.3.1": {
+    "action": "firewall_profile",
+    "reboot": false,
+    "profile": "Domain",
+    "setting": "DefaultOutboundAction",
+    "expected": "Allow"
+  },
+  "9.3.2": {
+    "action": "firewall_profile",
+    "reboot": false,
+    "profile": "Private",
+    "setting": "DefaultOutboundAction",
+    "expected": "Allow"
+  },
+  "9.3.3": {
+    "action": "firewall_profile",
+    "reboot": false,
+    "profile": "Public",
+    "setting": "DefaultOutboundAction",
+    "expected": "Allow"
+  },
+  "9.3.4": {
+    "action": "firewall_profile",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "9.3.5": {
+    "action": "firewall_profile",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "9.3.6": {
+    "action": "firewall_profile",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "9.3.7": {
+    "action": "firewall_profile",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "9.3.8": {
+    "action": "firewall_profile",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "9.3.9": {
+    "action": "firewall_profile",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "17.1.1": {
+    "action": "auditpol",
+    "reboot": false,
+    "subcategory": "Audit Credential Validation",
+    "success": "enable",
+    "failure": "enable"
+  },
+  "17.1.2": {
+    "action": "auditpol",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "17.1.3": {
+    "action": "auditpol",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "17.2.1": {
+    "action": "auditpol",
+    "reboot": false,
+    "subcategory": "Audit Application Group Management",
+    "success": "enable",
+    "failure": "enable"
+  },
+  "17.2.2": {
+    "action": "auditpol",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "17.2.3": {
+    "action": "auditpol",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "17.2.4": {
+    "action": "auditpol",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "17.2.5": {
+    "action": "auditpol",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "17.2.6": {
+    "action": "auditpol",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "17.3.1": {
+    "action": "auditpol",
+    "reboot": false,
+    "subcategory": "Audit Security Group Management",
+    "success": "enable",
+    "failure": "enable"
+  },
+  "17.3.2": {
+    "action": "auditpol",
+    "reboot": false,
+    "subcategory": "Audit User Account Management",
+    "success": "enable",
+    "failure": "enable"
+  },
+  "17.4.1": {
+    "action": "auditpol",
+    "reboot": false,
+    "subcategory": "Audit PNP Activity",
+    "success": "enable",
+    "failure": "enable"
+  },
+  "17.4.2": {
+    "action": "auditpol",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "17.5.1": {
+    "action": "auditpol",
+    "reboot": false,
+    "subcategory": "Audit Process Creation",
+    "success": "enable",
+    "failure": "enable"
+  },
+  "17.5.2": {
+    "action": "auditpol",
+    "reboot": false,
+    "subcategory": "Audit Process Termination",
+    "success": "enable",
+    "failure": "enable"
+  },
+  "17.5.3": {
+    "action": "auditpol",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "17.5.4": {
+    "action": "auditpol",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "17.5.5": {
+    "action": "auditpol",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "17.5.6": {
+    "action": "auditpol",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "17.6.1": {
+    "action": "auditpol",
+    "reboot": false,
+    "subcategory": "Audit Account Lockout",
+    "success": "enable",
+    "failure": "enable"
+  },
+  "17.6.2": {
+    "action": "auditpol",
+    "reboot": false,
+    "subcategory": "Audit Group Membership",
+    "success": "enable",
+    "failure": "enable"
+  },
+  "17.6.3": {
+    "action": "auditpol",
+    "reboot": false,
+    "subcategory": "Audit Logoff",
+    "success": "enable",
+    "failure": "enable"
+  },
+  "17.6.4": {
+    "action": "auditpol",
+    "reboot": false,
+    "subcategory": "Audit Logon",
+    "success": "enable",
+    "failure": "enable"
+  },
+  "17.7.1": {
+    "action": "auditpol",
+    "reboot": false,
+    "subcategory": "Audit Other Object Access Events",
+    "success": "enable",
+    "failure": "enable"
+  },
+  "17.7.2": {
+    "action": "auditpol",
+    "reboot": false,
+    "subcategory": "Audit Removable Storage",
+    "success": "enable",
+    "failure": "enable"
+  },
+  "17.7.3": {
+    "action": "auditpol",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "17.7.4": {
+    "action": "auditpol",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "17.7.5": {
+    "action": "auditpol",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "17.8.1": {
+    "action": "auditpol",
+    "reboot": false,
+    "subcategory": "Audit Audit Policy Change",
+    "success": "enable",
+    "failure": "enable"
+  },
+  "17.9.1": {
+    "action": "auditpol",
+    "reboot": false,
+    "subcategory": "Audit Sensitive Privilege Use",
+    "success": "enable",
+    "failure": "enable"
+  },
+  "17.9.2": {
+    "action": "auditpol",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "17.9.3": {
+    "action": "auditpol",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "17.9.4": {
+    "action": "auditpol",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "17.9.5": {
+    "action": "auditpol",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.1.1.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\System",
+    "name": "NoLockScreen",
+    "expected": 0
+  },
+  "18.1.1.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\System",
+    "name": "DisableLockScreenAppNotifications",
+    "expected": 1
+  },
+  "18.1.2.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\Personalization",
+    "name": "NoLockScreenSlideshow",
+    "expected": 1
+  },
+  "18.1.3": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.4.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\CredentialsDelegation",
+    "name": "AllowProtectedCreds",
+    "expected": 0
+  },
+  "18.4.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\CredentialsDelegation",
+    "name": "AllowEncryptionOracle",
+    "expected": 0
+  },
+  "18.4.3": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\CredUI",
+    "name": "EnumerateAdministrators",
+    "expected": 0
+  },
+  "18.4.4": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.4.5": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.4.6": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.4.7": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.5.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\System\\Audit",
+    "name": "ProcessCreationIncludeCmdLine_Enabled",
+    "expected": 1
+  },
+  "18.5.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\EventLog\\Application",
+    "name": "MaxSize",
+    "expected": 32768
+  },
+  "18.5.3": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\EventLog\\Security",
+    "name": "MaxSize",
+    "expected": 196608
+  },
+  "18.5.4": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\EventLog\\System",
+    "name": "MaxSize",
+    "expected": 32768
+  },
+  "18.5.5": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.5.6": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.5.7": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.5.8": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.5.9": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.5.10": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.5.11": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.5.12": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.6.4.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.6.4.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.6.4.3": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.6.4.4": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.6.5.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.6.7.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.6.8.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.6.8.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.6.9.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.6.9.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.6.10.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.6.11.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.6.11.3": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.6.11.4": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.6.14.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.6.20.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.6.20.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.6.21.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.6.21.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.7.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\Installer",
+    "name": "AlwaysInstallElevated",
+    "expected": 0
+  },
+  "18.7.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\Installer",
+    "name": "EnableUserControl",
+    "expected": 0
+  },
+  "18.7.3": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.7.4": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.7.5": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.7.6": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.7.7": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.7.8": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.7.9": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.7.10": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.7.11": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.7.12": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.8.1.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.9.3.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows Defender\\NIS",
+    "name": "DisableBthAvdtp",
+    "expected": 0
+  },
+  "18.9.4.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows Defender\\Windows Defender Exploit Guard\\ASR",
+    "name": "ExploitGuard_ASR_Rules",
+    "expected": 1
+  },
+  "18.9.4.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.9.7.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.9.13.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.9.19.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.9.19.3": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.9.19.4": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.9.19.5": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.9.19.6": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.9.19.7": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.9.20.1.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.9.20.1.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.9.20.1.3": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.9.20.1.4": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.9.20.1.5": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.9.20.1.6": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.9.20.1.7": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.9.20.1.8": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.9.20.1.9": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.9.20.1.10": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.9.20.1.11": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.9.20.1.12": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.9.20.1.13": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.9.23.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.9.24.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.9.25.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.9.25.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.9.25.3": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.9.25.4": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.9.25.5": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.9.25.6": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.9.25.7": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.9.25.8": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.9.26.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.9.27.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.9.28.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.9.28.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.9.28.3": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.9.28.4": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.9.28.5": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.9.28.6": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.9.28.7": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.9.31.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.9.31.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.9.33.6.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.9.33.6.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.9.33.6.3": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.9.33.6.4": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.9.35.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.9.35.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.9.36.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.9.36.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.9.39.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.9.47.5.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.9.47.11.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.9.49.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.9.51.1.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.9.51.1.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.4.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.6.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.8.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.8.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.8.3": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.9.1.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.11.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.13.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.13.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.13.3": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.14.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.15.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.15.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.16.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.16.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.16.3": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.16.4": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.16.5": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.16.6": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.16.7": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.18.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.18.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.18.3": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.18.4": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.18.5": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.18.6": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.18.7": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.26.1.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.26.1.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.26.2.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.26.2.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.26.3.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.26.3.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.26.4.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.26.4.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.29.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.29.3": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.29.4": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.29.5": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.37.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.41.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.42.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.43.4.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.43.5.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.43.5.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.43.6.1.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.43.6.1.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.43.6.3.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.43.7.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.43.8.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.43.10.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.43.10.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.43.10.3": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.43.10.4": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.43.10.5": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.43.11.1.1.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.43.11.1.1.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.43.11.1.2.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.43.12.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.43.13.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.43.13.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.43.13.3": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.43.13.4": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.43.13.5": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.43.16": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.43.17": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.51.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.56.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.57.2.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.57.3.2.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.57.3.3.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.57.3.3.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.57.3.3.3": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.57.3.3.4": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.57.3.3.5": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.57.3.3.6": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.57.3.3.7": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.57.3.9.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.57.3.9.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.57.3.9.3": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.57.3.9.4": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.57.3.9.5": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.57.3.10.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.57.3.10.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.57.3.11.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.57.3.11.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.58.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.58.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.59.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.59.3": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.59.4": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.63.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.76.2.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.80.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.80.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.81.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.81.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.81.3": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.82.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.82.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.87.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.87.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.89.1.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.89.1.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.89.1.3": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.89.2.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.89.2.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.89.2.3": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.89.2.4": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.90.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.92.2.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.93.1.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.93.2.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.93.2.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.93.4.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.93.4.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.93.4.3": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "19.5.1.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "19.6.6.1.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "19.7.5.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "19.7.5.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "19.7.8.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "19.7.8.2": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "19.7.8.3": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "19.7.8.4": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "19.7.8.5": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "19.7.26.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "19.7.44.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "19.7.46.2.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  },
+  "18.10.57.3.1": {
+    "action": "gpo_setting",
+    "reboot": false,
+    "path": "",
+    "name": "",
+    "expected": 0
+  }
+}
